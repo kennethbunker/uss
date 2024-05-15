@@ -48,6 +48,15 @@ xx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadisti
 vdem <- read.csv(text = xx)
 
 ###################################################
+# ABRIR DATOS POLARIZACION
+#
+#
+###################################################
+
+xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
+polarizacion <- read.csv(text = xxx)
+
+###################################################
 # DEFINICIÓN DE VARIABLES <------------------------------------------- ingresa tus variables aquí!!!
 #   # elegir base y variables [ejemplo: "base$variable"]
 #   # si están bien ingresadas, no hay que tocar nada abajo
