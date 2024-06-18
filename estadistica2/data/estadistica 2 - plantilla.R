@@ -64,10 +64,10 @@ polarizacion <- read.csv(text = xxx)
 ###################################################
 
 ## asignar nombre genérico a mis variables
-vd  <- byn$enpv_bn
-vi1 <- byn$dep_as
-vi2 <- byn$dep_dm
-vi3 <- byn$year
+vd  <- byn$enpv
+vi1 <- byn$pres_power
+vi2 <- byn$time
+vi3 <- byn$number
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -155,14 +155,32 @@ plot(vi1, vd,
 ## este es mi modelo 1 (tiene la principal variable independiente)
 modelo1 <- lm(vd ~ vi1)
 summary(modelo1)
+nobs(modelo1) # nobs = numero de observaciones = N
 
-## este es mi modelo 2 (tiene dos variables independientes)
-modelo2 <- lm(vd ~ vi1 + vi2)
+## este es mi modelo 2 (tiene una variable independiente)
+modelo2 <- lm(vd ~ vi2)
 summary(modelo2)
+nobs(modelo2) # nobs = numero de observaciones = N
 
-## este es mi modelo 3 (tiene tres variables independientes)
-modelo3 <- lm(vd ~ vi1 + vi2 + vi3)
+## este es mi modelo 3 (tiene otra variable independiente)
+modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
+nobs(modelo3) # nobs = numero de observaciones = N
+
+## este es mi modelo 4 (tiene dos variables independientes)
+modelo4 <- lm(vd ~ vi1 + vi3)
+summary(modelo4)
+nobs(modelo4) # nobs = numero de observaciones = N
+
+## este es mi modelo 5 (tiene dos variables independientes)
+modelo5 <- lm(vd ~ vi1 + vi2)
+summary(modelo5)
+nobs(modelo5) # nobs = numero de observaciones = N
+
+## este es mi modelo 6 (tiene tres variables independientes)
+modelo6 <- lm(vd ~ vi1 + vi2 + vi3)
+summary(modelo6)
+nobs(modelo6) # nobs = numero de observaciones = N
 
 ###################################################
 # REGRESIÓN + LINEA DE TENDENCIA
@@ -176,39 +194,45 @@ plot(vd ~ vi1,
      xlab="Nombre Variable Independiente")
 abline(modelo1, col="red")
 
-###################################################
-# OTROS EJEMPLOS: 1
-#
-#
-###################################################
+plot(vd ~ vi2, 
+     main="Título del Gráfico",
+     ylab="Nombre Variable Dependiente",
+     xlab="Nombre Variable Independiente")
+abline(modelo2, col="red")
 
-car::avPlots(modelo1)
-
-###################################################
-# OTROS EJEMPLOS: 2
-# # hay que definir base y variables
-#
-###################################################
-
-## una correlación de arcoiris
-result <- cor_test(byn, "dep_dm", "enpv_bn")
-plot(result,
-     point = list(
-       aes = list(color = "dep_dm", size = "enpv_bn"),
-       alpha = 0.66
-     ),
-     smooth = list(color = "black", se = FALSE)
-) +
-  see::theme_modern() +
-  see::scale_color_material_c(palette = "rainbow", guide = "none") +
-  scale_size_continuous(guide = "none")
-
-###################################################
-# OTROS EJEMPLOS: 3
-#
-#
-###################################################
-
-
-
-
+# ###################################################
+# # OTROS EJEMPLOS: 1
+# #
+# #
+# ###################################################
+# 
+# car::avPlots(modelo1)
+# 
+# ###################################################
+# # OTROS EJEMPLOS: 2
+# # # hay que definir base y variables
+# #
+# ###################################################
+# 
+# ## una correlación de arcoiris
+# result <- cor_test(byn, "dep_dm", "enpv_bn")
+# plot(result,
+#      point = list(
+#        aes = list(color = "dep_dm", size = "enpv_bn"),
+#        alpha = 0.66
+#      ),
+#      smooth = list(color = "black", se = FALSE)
+# ) +
+#   see::theme_modern() +
+#   see::scale_color_material_c(palette = "rainbow", guide = "none") +
+#   scale_size_continuous(guide = "none")
+# 
+# ###################################################
+# # OTROS EJEMPLOS: 3
+# #
+# #
+# ###################################################
+# 
+# 
+# 
+# 
