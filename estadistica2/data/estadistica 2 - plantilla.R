@@ -138,7 +138,7 @@ plot(dens4, main="Densidad: Variable Independiente 3")
 ###################################################
 
 # esta es mi primera correlación
-cor(vd, vi1, )
+cor(vd, vi1, use="pairwise.complete.obs")
 
 # este es mi primer gráfico de asociación
 plot(vi1, vd, 
