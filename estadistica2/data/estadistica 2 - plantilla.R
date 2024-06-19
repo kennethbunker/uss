@@ -64,10 +64,10 @@ polarizacion <- read.csv(text = xxx)
 ###################################################
 
 ## asignar nombre genérico a mis variables
-vd  <- byn$enpv
-vi1 <- byn$pres_power
-vi2 <- byn$time
-vi3 <- byn$number
+vd  <- polarizacion$boric_1v2021
+vi1 <- polarizacion$coord1D_normal_all
+vi2 <- polarizacion$edad
+vi3 <- polarizacion$magnitud_distrital
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -76,28 +76,28 @@ vi3 <- byn$number
 ###################################################
 
 ## mi variable dependiente
-mean(vd)
-sd(vd)
-min(vd)
-max(vd)
+mean(vd, na.rm = T)
+sd(vd, na.rm = T)
+min(vd, na.rm = T)
+max(vd, na.rm = T)
 
 ## mi variable independiente 1
-mean(vi1)
-sd(vi1)
-min(vi1)
-max(vi1)
+mean(vi1, na.rm = T)
+sd(vi1, na.rm = T)
+min(vi1, na.rm = T)
+max(vi1, na.rm = T)
 
 ## mi variable independiente 2
-mean(vi2)
-sd(vi2)
-min(vi2)
-max(vi2)
+mean(vi2, na.rm = T)
+sd(vi2, na.rm = T)
+min(vi2, na.rm = T)
+max(vi2, na.rm = T)
 
 ## mi variable independiente 3
-mean(vi3)
-sd(vi3)
-min(vi3)
-max(vi3)
+mean(vi3, na.rm = T)
+sd(vi3, na.rm = T)
+min(vi3, na.rm = T)
+max(vi3, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
@@ -119,16 +119,16 @@ boxplot(vi3, main="Variable Independiente 3")
 ###################################################
 
 ## distribuciones de densidades
-dens1 <- density(vd)
+dens1 <- density(vd, na.rm = T)
 plot(dens1, main="Densidad: Variable Dependiente")
 
-dens2 <- density(vi1)
+dens2 <- density(vi1, na.rm = T)
 plot(dens2, main="Densidad: Variable Independiente 1")
 
-dens3 <- density(vi2)
+dens3 <- density(vi2, na.rm = T)
 plot(dens3, main="Densidad: Variable Independiente 2")
 
-dens4 <- density(vi3)
+dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
 ###################################################
@@ -138,7 +138,7 @@ plot(dens4, main="Densidad: Variable Independiente 3")
 ###################################################
 
 # esta es mi primera correlación
-cor(vd, vi1)
+cor(vd, vi1, )
 
 # este es mi primer gráfico de asociación
 plot(vi1, vd, 
@@ -199,6 +199,13 @@ plot(vd ~ vi2,
      ylab="Nombre Variable Dependiente",
      xlab="Nombre Variable Independiente")
 abline(modelo2, col="red")
+
+plot(vd ~ vi3, 
+     main="Título del Gráfico",
+     ylab="Nombre Variable Dependiente",
+     xlab="Nombre Variable Independiente")
+abline(modelo3, col="red")
+
 
 # ###################################################
 # # OTROS EJEMPLOS: 1
