@@ -18,7 +18,7 @@ rm(list=ls())
 ###################################################
 
 ## CAMBIAR A TU COMPUTADOR
-#setwd("/Users/kennethbunker/Dropbox/USS/clases/2024-1/estadistica 2/solemne 3/")
+#setwd("/Users/kennethbunker/Dropbox/USS/clases/2025-01/estadistica 2/solemne 3/")
 
 ###################################################
 # BIBLIOTECA
@@ -55,6 +55,16 @@ vdem <- read.csv(text = xx)
 
 xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
 polarizacion <- read.csv(text = xxx)
+
+
+###################################################
+# LIMPIAR BASE
+#   # sacar filas que tienen NA
+#   # 
+#
+###################################################
+
+polarizacion <- drop_na(polarizacion)
 
 ###################################################
 # DEFINICIÓN DE VARIABLES <------------------------------------------- ingresa tus variables aquí!!!
