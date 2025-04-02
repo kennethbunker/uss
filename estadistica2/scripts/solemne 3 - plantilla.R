@@ -2,6 +2,7 @@
 # R SCRIPT: SOLEMNE 3
 # por       : Kenneth Bunker
 # contacto  : kenneth.bunker@uss.cl
+# ramo      : Estadística II
 # trabajo   : Nombre de Trabajo
 #           
 #           
@@ -55,7 +56,6 @@ vdem <- read.csv(text = xx)
 
 xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
 polarizacion <- read.csv(text = xxx)
-
 
 ###################################################
 # LIMPIAR BASE
@@ -120,7 +120,6 @@ boxplot(vd, main="Variable Dependiente")
 boxplot(vi1, main="Variable Independiente 1")
 boxplot(vi2, main="Variable Independiente 2")
 boxplot(vi3, main="Variable Independiente 3")
-
 
 ###################################################
 # EXPLORAR DATOS (DENSIDADES)
