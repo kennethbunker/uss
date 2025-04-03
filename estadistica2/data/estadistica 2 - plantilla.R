@@ -28,25 +28,15 @@ pacman::p_load(RCurl, ggplot2, car,
                correlation, see)
 
 ###################################################
-# ABRIR DATOS BUNKER Y NEGRETTO
-# Cargar base de datos latam.csv desde Github
+# ABRIR DATOS (BORRAR SI NO USA)
+# Cargar base de datos CSV desde Github
 ###################################################
 
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/latam.csv") 
 byn <- read.csv(text = data)
 
-###################################################
-# ABRIR DATOS V-DEM
-# Cargar base de datos vdem.csv desde Github
-###################################################
-
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/vdem.csv") 
 vdem <- read.csv(text = data)
-
-###################################################
-# ABRIR DATOS POLARIZACION
-# Cargar base de datos polarizacion.csv desde Github
-###################################################
 
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
 polarizacion <- read.csv(text = data, encoding="UTF-8")
@@ -61,6 +51,9 @@ perez_rojas <- read.csv(text = data)
 
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/velasquez_faure.csv") 
 velasquez_faure <- read.csv(text = data)
+
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
+fernandez_vilches <- read.csv(text = data)
 
 
 ###################################################
@@ -77,10 +70,10 @@ velasquez_faure <- read.csv(text = data)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- perez_rojas$homicide                 # variable dependiente
-vi1 <- perez_rojas$govstab           # variable independiente 1
-vi2 <- perez_rojas$subexp                         # variable independiente 2
-vi3 <- perez_rojas$corrup           # variable independiente 3
+vd  <- fernandez_vilches$freedom                 # variable dependiente
+vi1 <- fernandez_vilches$goverment           # variable independiente 1
+vi2 <- fernandez_vilches$tarrifs                         # variable independiente 2
+vi3 <- fernandez_vilches$police           # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
