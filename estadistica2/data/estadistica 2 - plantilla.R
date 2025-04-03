@@ -73,10 +73,10 @@ perez_rojas2 <- read.csv(text = data)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- polarizacion$boric_1v2021                 # variable dependiente
-vi1 <- polarizacion$coord1D_normal_all           # variable independiente 1
-vi2 <- polarizacion$edad                         # variable independiente 2
-vi3 <- polarizacion$magnitud_distrital           # variable independiente 3
+vd  <- perez_rojas$homicide                 # variable dependiente
+vi1 <- perez_rojas$coord1D_normal_all           # variable independiente 1
+vi2 <- perez_rojas$edad                         # variable independiente 2
+vi3 <- perez_rojas$magnitud_distrital           # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
