@@ -59,6 +59,10 @@ polarizacion <- read.csv(text = data, encoding="UTF-8")
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
 perez_rojas <- read.csv(text = data)
 
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/velasquez_faure.csv") 
+velasquez_faure <- read.csv(text = data)
+
+
 ###################################################
 # LIMPIAR BASE
 # Remover filas que tienen valores faltantes (NA)
