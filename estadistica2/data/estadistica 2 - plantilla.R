@@ -52,6 +52,14 @@ xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadist
 polarizacion <- read.csv(text = xxx, encoding="UTF-8")
 
 ###################################################
+# ABRIR DATOS 2025-1
+# Cargar base de datos polarizacion.csv desde Github
+###################################################
+
+perez_rojas <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
+perez_rojas <- read.csv(text = perez_rojas)
+
+###################################################
 # LIMPIAR BASE
 # Remover filas que tienen valores faltantes (NA)
 ###################################################
