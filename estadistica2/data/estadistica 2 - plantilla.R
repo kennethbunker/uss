@@ -57,7 +57,7 @@ polarizacion <- read.csv(text = data, encoding="UTF-8")
 ###################################################
 
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
-perez_rojas2 <- read.csv(text = data)
+perez_rojas <- read.csv(text = data)
 
 ###################################################
 # LIMPIAR BASE
@@ -74,9 +74,9 @@ perez_rojas2 <- read.csv(text = data)
 
 ## Variables para análisis (ajustar si es necesario)
 vd  <- perez_rojas$homicide                 # variable dependiente
-vi1 <- perez_rojas$coord1D_normal_all           # variable independiente 1
-vi2 <- perez_rojas$edad                         # variable independiente 2
-vi3 <- perez_rojas$magnitud_distrital           # variable independiente 3
+vi1 <- perez_rojas$govstab           # variable independiente 1
+vi2 <- perez_rojas$subexp                         # variable independiente 2
+vi3 <- perez_rojas$corrup           # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
