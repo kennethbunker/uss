@@ -32,32 +32,32 @@ pacman::p_load(RCurl, ggplot2, car,
 # Cargar base de datos latam.csv desde Github
 ###################################################
 
-x <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/latam.csv") 
-byn <- read.csv(text = x)
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/latam.csv") 
+byn <- read.csv(text = data)
 
 ###################################################
 # ABRIR DATOS V-DEM
 # Cargar base de datos vdem.csv desde Github
 ###################################################
 
-xx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/vdem.csv") 
-vdem <- read.csv(text = xx)
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/vdem.csv") 
+vdem <- read.csv(text = data)
 
 ###################################################
 # ABRIR DATOS POLARIZACION
 # Cargar base de datos polarizacion.csv desde Github
 ###################################################
 
-xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
-polarizacion <- read.csv(text = xxx, encoding="UTF-8")
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
+polarizacion <- read.csv(text = data, encoding="UTF-8")
 
 ###################################################
 # ABRIR DATOS 2025-1
-# Cargar base de datos polarizacion.csv desde Github
+# Cargar base de datos apellido.csv desde Github
 ###################################################
 
-perez_rojas <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
-perez_rojas <- read.csv(text = perez_rojas)
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
+perez_rojas2 <- read.csv(text = data)
 
 ###################################################
 # LIMPIAR BASE
