@@ -55,6 +55,10 @@ velasquez_faure <- read.csv(text = data)
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
 fernandez_vilches <- read.csv(text = data)
 
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
+paz <- read.csv(text = data)
+
+
 
 ###################################################
 # LIMPIAR BASE
