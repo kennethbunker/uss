@@ -5,6 +5,7 @@
 # ramo      : Estadística II
 # trabajo   : Nombre de Trabajo
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/
+#
 ###################################################
 
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
@@ -22,10 +23,19 @@ rm(list=ls())
 # Cargar e instalar paquetes necesarios
 ###################################################
 
-install.packages("pacman")
-pacman::p_load(RCurl, ggplot2, car,
-               dplyr, plyr, readxl, writexl, openxlsx,
-               correlation, see)
+#install.packages("pacman")
+#pacman::p_load(RCurl, ggplot2, car, dplyr, plyr, readxl, writexl, openxlsx, correlation, see)
+
+library("RCurl")
+library("ggplot2")
+library("car")
+library("dplyr")
+library("plyr")
+library("readxl")
+library("writexl")
+library("openxlsx")
+library("correlation")
+library("see")
 
 ###################################################
 # ABRIR DATOS (BORRAR SI NO USA)
@@ -55,7 +65,7 @@ velasquez_faure <- read.csv(text = data)
 data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
 fernandez_vilches <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
+data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/paz.csv") 
 paz <- read.csv(text = data)
 
 
@@ -74,10 +84,10 @@ paz <- read.csv(text = data)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- fernandez_vilches$freedom                 # variable dependiente
-vi1 <- fernandez_vilches$goverment           # variable independiente 1
-vi2 <- fernandez_vilches$tarrifs                         # variable independiente 2
-vi3 <- fernandez_vilches$police           # variable independiente 3
+vd  <- paz$aprob2                 # variable dependiente
+vi1 <- paz$gini           # variable independiente 1
+vi2 <- paz$gdp                         # variable independiente 2
+vi3 <- paz$ipc           # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
