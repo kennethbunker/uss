@@ -12,11 +12,14 @@
 rm(list=ls())
 
 ###################################################
-# DIRECTORIO DE TRABAJO
+# DIRECTORIOS
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
 #setwd("/ruta/a/tu/directorio/")
+
+# Directorio de datos
+github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # BIBLIOTECA
@@ -42,13 +45,13 @@ library("see")
 # Cargar base de datos CSV desde Github
 ###################################################
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/latam.csv") 
+data <- getURL(paste0(github,"latam.csv")) 
 byn <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/vdem.csv") 
+data <- getURL(paste0(github,"vdem.csv")) 
 vdem <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
+data <- getURL(paste0(github,"polarizacion.csv")) 
 polarizacion <- read.csv(text = data, encoding="UTF-8")
 
 ###################################################
@@ -56,23 +59,21 @@ polarizacion <- read.csv(text = data, encoding="UTF-8")
 # Cargar base de datos apellido.csv desde Github
 ###################################################
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/perez_rojas.csv") 
+data <- getURL(paste0(github,"perez_rojas.csv")) 
 perez_rojas <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/velasquez_faure.csv") 
+data <- getURL(paste0(github,"velasquez_faure.csv")) 
 velasquez_faure <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/fernandez_vilches.csv") 
+data <- getURL(paste0(github,"fernandez_vilches.csv")) 
 fernandez_vilches <- read.csv(text = data)
 
-data <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/paz.csv") 
+data <- getURL(paste0(github,"paz.csv")) 
 paz <- read.csv(text = data)
-
-
 
 ###################################################
 # LIMPIAR BASE
-# Remover filas que tienen valores faltantes (NA)
+# Remover filas que tienen valores faltantes/celdas vacías (NA)
 ###################################################
 
 #polarizacion <- drop_na(polarizacion)
@@ -80,14 +81,14 @@ paz <- read.csv(text = data)
 ###################################################
 # DEFINICIÓN DE VARIABLES
 # Define aquí tus variables usando formato "base$variable"
-# Si las defines correctamente, no es necesario modificar abajo
+# Si las defines correctamente, no es necesario modificar nada después de este item
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- paz$aprob2                 # variable dependiente
+vd  <- paz$aprob2         # variable dependiente
 vi1 <- paz$gini           # variable independiente 1
-vi2 <- paz$gdp                         # variable independiente 2
-vi3 <- paz$ipc           # variable independiente 3
+vi2 <- paz$gdp            # variable independiente 2
+vi3 <- paz$cpi            # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
