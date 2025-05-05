@@ -68,7 +68,7 @@ velasquez_faure <- read.csv(text = data)
 data <- getURL(paste0(github,"fernandez_vilches.csv")) 
 fernandez_vilches <- read.csv(text = data)
 
-data <- getURL(paste0(github,"paz.csv")) 
+data <- getURL(paste0(github,"paz_ayala.csv")) 
 paz <- read.csv(text = data)
 
 ###################################################
