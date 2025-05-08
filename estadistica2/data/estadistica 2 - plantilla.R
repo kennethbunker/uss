@@ -4,7 +4,7 @@
 # contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
 # trabajo   : Nombre de Trabajo
-# permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/
+# permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################
 
