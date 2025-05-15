@@ -59,20 +59,22 @@ polarizacion <- read.csv(text = data, encoding="UTF-8")
 # Cargar base de datos apellido.csv desde Github
 ###################################################
 
-data <- getURL(paste0(github,"perez_rojas.csv")) 
-perez_rojas <- read.csv(text = data)
+data2 <- getURL(paste0(github,"perez_rojas.csv")) 
+data <- read.csv(text = data2)
 
-data <- getURL(paste0(github,"velasquez_faure.csv")) 
-velasquez_faure <- read.csv(text = data)
+data2 <- getURL(paste0(github,"velasquez_faure.csv")) 
+data <- read.csv(text = data2)
 
-data <- getURL(paste0(github,"fernandez_vilches.csv")) 
-fernandez_vilches <- read.csv(text = data)
+data2 <- getURL(paste0(github,"fernandez_vilches.csv")) 
+data <- read.csv(text = data2)
 
-data <- getURL(paste0(github,"paz_ayala.csv")) 
-paz <- read.csv(text = data)
+data2 <- getURL(paste0(github,"paz_ayala.csv")) 
+data <- read.csv(text = data2)
 
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
 data <- read.csv(text = data2)
+
+data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/contreras_guzman.xlsx")
 
 
 ###################################################
@@ -89,10 +91,12 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- paz$aprob2         # variable dependiente
-vi1 <- paz$gini           # variable independiente 1
-vi2 <- paz$gdp            # variable independiente 2
-vi3 <- paz$cpi            # variable independiente 3
+vd  <- data$coord1D_normal_all         # variable dependiente
+vi1 <- data$sexo           # variable independiente 1
+vi2 <- data$edad            # variable independiente 2
+vi3 <- data$p_votos            # variable independiente 3
+vi4 <- data$magnitud_distrital            # variable independiente 4
+
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -150,6 +154,9 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
+dens5 <- density(vi4, na.rm = T)
+plot(dens5, main="Densidad: Variable Independiente 3")
+
 ###################################################
 # CORRELACIÓN
 # Calcular correlación y graficar relación entre variables
@@ -159,7 +166,7 @@ plot(dens4, main="Densidad: Variable Independiente 3")
 cor(vd, vi1, use="pairwise.complete.obs")
 
 # Gráfico de dispersión entre variables
-plot(vi1, vd, 
+plot(vi4, vd, 
      main="Relación entre Variables",
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
