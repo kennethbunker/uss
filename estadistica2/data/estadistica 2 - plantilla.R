@@ -71,6 +71,10 @@ fernandez_vilches <- read.csv(text = data)
 data <- getURL(paste0(github,"paz_ayala.csv")) 
 paz <- read.csv(text = data)
 
+data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
+data <- read.csv(text = data2)
+
+
 ###################################################
 # LIMPIAR BASE
 # Remover filas que tienen valores faltantes/celdas vacías (NA)

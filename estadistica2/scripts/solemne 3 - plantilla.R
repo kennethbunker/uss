@@ -4,106 +4,120 @@
 # contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
 # trabajo   : Nombre de Trabajo
-#           
-#           
-#
-#
+# permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################
 
-## Limpiar el caché
+## Limpiar el caché (eliminar variables guardadas anteriormente)
 rm(list=ls())
 
 ###################################################
-# DIRECTORIO DE TRABAJO
+# DIRECTORIOS
 ###################################################
 
-## CAMBIAR A TU COMPUTADOR
-#setwd("/Users/kennethbunker/Dropbox/USS/clases/2025-01/estadistica 2/solemne 3/")
+## Establecer directorio de trabajo en tu computador
+#setwd("/ruta/a/tu/directorio/")
+
+# Directorio de datos
+github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # BIBLIOTECA
+# Cargar e instalar paquetes necesarios
 ###################################################
 
-install.packages("pacman")
-pacman::p_load(RCurl, ggplot2, ggplot2, car,
-               dplyr, plyr,readxl,writexl,openxlsx,
-               correlation,see,ggplot2)
+#install.packages("pacman")
+#pacman::p_load(RCurl, ggplot2, car, dplyr, plyr, readxl, writexl, openxlsx, correlation, see)
+
+library("RCurl")
+library("ggplot2")
+library("car")
+library("dplyr")
+library("plyr")
+library("readxl")
+library("writexl")
+library("openxlsx")
+library("correlation")
+library("see")
 
 ###################################################
-# ABRIR DATOS BUNKER Y NEGRETTO
-#
-#
+# ABRIR DATOS (BORRAR SI NO USA)
+# Cargar base de datos CSV desde Github
 ###################################################
 
-x <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/latam.csv") 
-byn <- read.csv(text = x)
+data <- getURL(paste0(github,"latam.csv")) 
+byn <- read.csv(text = data)
+
+data <- getURL(paste0(github,"vdem.csv")) 
+vdem <- read.csv(text = data)
+
+data <- getURL(paste0(github,"polarizacion.csv")) 
+polarizacion <- read.csv(text = data, encoding="UTF-8")
 
 ###################################################
-# ABRIR DATOS V-DEM
-#
-#
+# ABRIR DATOS 2025-1
+# Cargar base de datos apellido.csv desde Github
 ###################################################
 
-xx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/vdem.csv") 
-vdem <- read.csv(text = xx)
+data <- getURL(paste0(github,"perez_rojas.csv")) 
+perez_rojas <- read.csv(text = data)
 
-###################################################
-# ABRIR DATOS POLARIZACION
-#
-#
-###################################################
+data <- getURL(paste0(github,"velasquez_faure.csv")) 
+velasquez_faure <- read.csv(text = data)
 
-xxx <- getURL("https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/polarizacion.csv") 
-polarizacion <- read.csv(text = xxx)
+data <- getURL(paste0(github,"fernandez_vilches.csv")) 
+fernandez_vilches <- read.csv(text = data)
+
+data <- getURL(paste0(github,"paz_ayala.csv")) 
+paz <- read.csv(text = data)
+
+data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
+data <- read.csv(text = data2)
+
 
 ###################################################
 # LIMPIAR BASE
-#   # sacar filas que tienen NA
-#   # 
-#
+# Remover filas que tienen valores faltantes/celdas vacías (NA)
 ###################################################
 
-polarizacion <- drop_na(polarizacion)
+#polarizacion <- drop_na(polarizacion)
 
 ###################################################
-# DEFINICIÓN DE VARIABLES <------------------------------------------- ingresa tus variables aquí!!!
-#   # elegir base y variables [ejemplo: "base$variable"]
-#   # si están bien ingresadas, no hay que tocar nada abajo
-#
+# DEFINICIÓN DE VARIABLES
+# Define aquí tus variables usando formato "base$variable"
+# Si las defines correctamente, no es necesario modificar nada después de este item
 ###################################################
 
-## asignar nombre genérico a mis variables
-vd  <- polarizacion$boric_1v2021
-vi1 <- polarizacion$coord1D_normal_all
-vi2 <- polarizacion$edad
-vi3 <- polarizacion$magnitud_distrital
+## Variables para análisis (ajustar si es necesario)
+vd  <- paz$aprob2         # variable dependiente
+vi1 <- paz$gini           # variable independiente 1
+vi2 <- paz$gdp            # variable independiente 2
+vi3 <- paz$cpi            # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
-#
-#
+# Estadísticos descriptivos (media, desviación estándar, mínimo y máximo)
 ###################################################
 
-## mi variable dependiente
+## Estadísticas variable dependiente
 mean(vd, na.rm = T)
 sd(vd, na.rm = T)
 min(vd, na.rm = T)
 max(vd, na.rm = T)
 
-## mi variable independiente 1
+## Estadísticas variable independiente 1
 mean(vi1, na.rm = T)
 sd(vi1, na.rm = T)
 min(vi1, na.rm = T)
 max(vi1, na.rm = T)
 
-## mi variable independiente 2
+## Estadísticas variable independiente 2
 mean(vi2, na.rm = T)
 sd(vi2, na.rm = T)
 min(vi2, na.rm = T)
 max(vi2, na.rm = T)
 
-## mi variable independiente 3
+## Estadísticas variable independiente 3
 mean(vi3, na.rm = T)
 sd(vi3, na.rm = T)
 min(vi3, na.rm = T)
@@ -111,11 +125,9 @@ max(vi3, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
-#
-#
+# Gráficos tipo boxplot para identificar valores extremos
 ###################################################
 
-## boxplot
 boxplot(vd, main="Variable Dependiente")
 boxplot(vi1, main="Variable Independiente 1")
 boxplot(vi2, main="Variable Independiente 2")
@@ -123,11 +135,9 @@ boxplot(vi3, main="Variable Independiente 3")
 
 ###################################################
 # EXPLORAR DATOS (DENSIDADES)
-#
-#
+# Gráficos de densidad para evaluar la distribución
 ###################################################
 
-## distribuciones de densidades
 dens1 <- density(vd, na.rm = T)
 plot(dens1, main="Densidad: Variable Dependiente")
 
@@ -142,95 +152,86 @@ plot(dens4, main="Densidad: Variable Independiente 3")
 
 ###################################################
 # CORRELACIÓN
-#
-#
+# Calcular correlación y graficar relación entre variables
 ###################################################
 
-# esta es mi primera correlación
+# Correlación entre variables
 cor(vd, vi1, use="pairwise.complete.obs")
 
-# este es mi primer gráfico de asociación
+# Gráfico de dispersión entre variables
 plot(vi1, vd, 
      main="Relación entre Variables",
-     ylab="Nombre Variable Dependiente",
-     xlab="Nombre Variable Independiente")
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
 
 ###################################################
 # REGRESIÓN
-#
-#
+# Modelos de regresión lineal simple y múltiple
 ###################################################
 
-## este es mi modelo 1 (tiene la principal variable independiente)
+## Modelo 1: Regresión simple (vd ~ vi1)
 modelo1 <- lm(vd ~ vi1)
 summary(modelo1)
-nobs(modelo1) # nobs = numero de observaciones = N
+nobs(modelo1)
 
-## este es mi modelo 2 (tiene una variable independiente)
+## Modelo 2: Regresión simple (vd ~ vi2)
 modelo2 <- lm(vd ~ vi2)
 summary(modelo2)
-nobs(modelo2) # nobs = numero de observaciones = N
+nobs(modelo2)
 
-## este es mi modelo 3 (tiene otra variable independiente)
+## Modelo 3: Regresión simple (vd ~ vi3)
 modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
-nobs(modelo3) # nobs = numero de observaciones = N
+nobs(modelo3)
 
-## este es mi modelo 4 (tiene dos variables independientes)
+## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
 modelo4 <- lm(vd ~ vi1 + vi3)
 summary(modelo4)
-nobs(modelo4) # nobs = numero de observaciones = N
+nobs(modelo4)
 
-## este es mi modelo 5 (tiene dos variables independientes)
+## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
 modelo5 <- lm(vd ~ vi1 + vi2)
 summary(modelo5)
-nobs(modelo5) # nobs = numero de observaciones = N
+nobs(modelo5)
 
-## este es mi modelo 6 (tiene tres variables independientes)
+## Modelo 6: Regresión múltiple (vd ~ vi1 + vi2 + vi3)
 modelo6 <- lm(vd ~ vi1 + vi2 + vi3)
 summary(modelo6)
-nobs(modelo6) # nobs = numero de observaciones = N
+nobs(modelo6)
 
 ###################################################
 # REGRESIÓN + LINEA DE TENDENCIA
-#
-#
+# Gráficos con líneas de regresión ajustadas
 ###################################################
 
 plot(vd ~ vi1, 
-     main="Título del Gráfico",
-     ylab="Nombre Variable Dependiente",
-     xlab="Nombre Variable Independiente")
+     main="Variable Dependiente vs Independiente 1",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente 1")
 abline(modelo1, col="red")
 
 plot(vd ~ vi2, 
-     main="Título del Gráfico",
-     ylab="Nombre Variable Dependiente",
-     xlab="Nombre Variable Independiente")
+     main="Variable Dependiente vs Independiente 2",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente 2")
 abline(modelo2, col="red")
 
 plot(vd ~ vi3, 
-     main="Título del Gráfico",
-     ylab="Nombre Variable Dependiente",
-     xlab="Nombre Variable Independiente")
+     main="Variable Dependiente vs Independiente 3",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente 3")
 abline(modelo3, col="red")
 
+# ###################################################
+# OTROS EJEMPLOS: 1
+# Gráficos de valores añadidos (partial regression plots)
+###################################################
+# car::avPlots(modelo1)
 
 # ###################################################
-# # OTROS EJEMPLOS: 1
-# #
-# #
-# ###################################################
-# 
-# car::avPlots(modelo1)
-# 
-# ###################################################
-# # OTROS EJEMPLOS: 2
-# # # hay que definir base y variables
-# #
-# ###################################################
-# 
-# ## una correlación de arcoiris
+# OTROS EJEMPLOS: 2
+# Gráfico avanzado de correlación con paquete see
+###################################################
 # result <- cor_test(byn, "dep_dm", "enpv_bn")
 # plot(result,
 #      point = list(
@@ -242,13 +243,3 @@ abline(modelo3, col="red")
 #   see::theme_modern() +
 #   see::scale_color_material_c(palette = "rainbow", guide = "none") +
 #   scale_size_continuous(guide = "none")
-# 
-# ###################################################
-# # OTROS EJEMPLOS: 3
-# #
-# #
-# ###################################################
-# 
-# 
-# 
-# 
