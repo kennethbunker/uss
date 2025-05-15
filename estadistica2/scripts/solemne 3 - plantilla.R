@@ -74,8 +74,7 @@ data <- read.csv(text = data2)
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
 data <- read.csv(text = data2)
 
-data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/contreras_guzman.xlsx")
-
+data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/herrera_navarro.xlsx")
 
 ###################################################
 # LIMPIAR BASE
@@ -91,12 +90,11 @@ data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/contreras_guzman.xlsx")
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$coord1D_normal_all         # variable dependiente
-vi1 <- data$sexo           # variable independiente 1
-vi2 <- data$edad            # variable independiente 2
-vi3 <- data$p_votos            # variable independiente 3
-vi4 <- data$magnitud_distrital            # variable independiente 4
-
+vd  <- data$días         # variable dependiente
+vi1 <- data$edad                    # variable independiente 1
+vi2 <- data$sexo            # variable independiente 2 
+vi3 <- data$`año nombramiento`            # variable independiente 3
+vi4 <- data$politico            # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -129,7 +127,7 @@ max(vi3, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
-# Gráficos tipo boxplot para identificar valores extremos
+# Gráficos tipo boxplot para identificar valores extremos (solo sirve con valores continuos--no dummy)
 ###################################################
 
 boxplot(vd, main="Variable Dependiente")
@@ -166,7 +164,7 @@ plot(dens5, main="Densidad: Variable Independiente 3")
 cor(vd, vi1, use="pairwise.complete.obs")
 
 # Gráfico de dispersión entre variables
-plot(vi4, vd, 
+plot(vi1, vd, 
      main="Relación entre Variables",
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
