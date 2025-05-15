@@ -74,7 +74,7 @@ data <- read.csv(text = data2)
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
 data <- read.csv(text = data2)
 
-data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/herrera_navarro.xlsx")
+data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/perez_rojas.xlsx")
 
 ###################################################
 # LIMPIAR BASE
@@ -90,11 +90,11 @@ data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/herrera_navarro.xlsx")
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$días         # variable dependiente
-vi1 <- data$edad                    # variable independiente 1
-vi2 <- data$sexo            # variable independiente 2 
-vi3 <- data$`año nombramiento`            # variable independiente 3
-vi4 <- data$politico            # variable independiente 4
+vd  <- data$homicidios         # variable dependiente
+vi1 <- data$subexp                    # variable independiente 1
+vi2 <- data$govstab            # variable independiente 2 
+vi3 <- data$discinco            # variable independiente 3
+vi4 <- data$corrup            # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
