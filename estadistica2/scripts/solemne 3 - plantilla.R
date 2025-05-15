@@ -74,7 +74,7 @@ data <- read.csv(text = data2)
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
 data <- read.csv(text = data2)
 
-data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/velasquez_faure.xlsx")
+data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/droguett_sepulveda.xlsx")
 
 ###################################################
 # LIMPIAR BASE
@@ -90,10 +90,10 @@ data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/velasquez_faure.xlsx")
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$enpv_bn         # variable dependiente
-vi1 <- data$dep_as                    # variable independiente 1
-vi2 <- data$dep_dm            # variable independiente 2 
-vi3 <- data$ethnic            # variable independiente 3
+vd  <- data$precision_promedio         # variable dependiente
+vi1 <- data$delta                    # variable independiente 1
+vi2 <- data$prob            # variable independiente 2 
+vi3 <- data$encuestados            # variable independiente 3
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
