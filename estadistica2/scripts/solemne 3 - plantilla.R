@@ -12,13 +12,18 @@
 rm(list=ls())
 
 ###################################################
-# DIRECTORIOS
+# CARGA DE DATOS VIA MANUAL
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
 #setwd("/ruta/a/tu/directorio/")
+#df <- read_xlsx("chile_legisladores.xlsx")
 
-# Directorio de datos
+###################################################
+# CARGA DE DATOS VIA GITHUB
+###################################################
+
+# Importar de Github
 github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
@@ -92,7 +97,7 @@ data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/droguett_sepulveda.xlsx"
 ## Variables para análisis (ajustar si es necesario)
 vd  <- data$precision_promedio         # variable dependiente
 vi1 <- data$delta                    # variable independiente 1
-vi2 <- data$prob            # variable independiente 2 
+vi2 <- data$prob              # variable independiente 2 
 vi3 <- data$encuestados            # variable independiente 3
 
 ###################################################
