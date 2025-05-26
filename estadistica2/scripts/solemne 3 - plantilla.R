@@ -11,20 +11,6 @@
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
 rm(list=ls())
 
-###################################################
-# CARGA DE DATOS VIA MANUAL
-###################################################
-
-## Establecer directorio de trabajo en tu computador
-#setwd("/ruta/a/tu/directorio/")
-#df <- read_xlsx("chile_legisladores.xlsx")
-
-###################################################
-# CARGA DE DATOS VIA GITHUB
-###################################################
-
-# Importar de Github
-github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # BIBLIOTECA
@@ -44,6 +30,21 @@ library("writexl")
 library("openxlsx")
 library("correlation")
 library("see")
+
+###################################################
+# CARGA DE DATOS VIA MANUAL
+###################################################
+
+## Establecer directorio de trabajo en tu computador
+#setwd("/ruta/a/tu/directorio/")
+#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/droguett_sepulveda.xlsx")
+
+###################################################
+# CARGA DE DATOS VIA GITHUB
+###################################################
+
+# Importar de Github
+github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # ABRIR DATOS (BORRAR SI NO USA)
@@ -78,8 +79,6 @@ data <- read.csv(text = data2)
 
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
 data <- read.csv(text = data2)
-
-data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/droguett_sepulveda.xlsx")
 
 ###################################################
 # LIMPIAR BASE
