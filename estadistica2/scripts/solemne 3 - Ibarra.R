@@ -35,8 +35,8 @@ library("see")
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
-#setwd("/ruta/a/tu/directorio/")
-#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/droguett_sepulveda.xlsx")
+#setwd("/estadistica2_cony")
+#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/ibarra.xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
@@ -54,17 +54,17 @@ data2 <- getURL(paste0(github,"latam.csv"))
 data <- read.csv(text = data2)
 
 ###################################################
-# DEFINICIÓN DE VARIABLES
+# DEFINICIÓN DE VARIABLES / HIPOTESIS
 # Define aquí tus variables usando formato "base$variable"
 # Si las defines correctamente, no es necesario modificar nada después de este item
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$enc_bn    # Número de candidatos presidenciales
-vi1 <- data$e2        # Diversidad etnica (que tan diferente es el pais?) h1: mientras diferente el país, más candidatos presidenciales
-vi2 <- data$enpv_bn   # Número de partidos (cuántos paridos compiten?) h2: mientras mas partidos compiten, mas candidatos pres hay
-vi3 <- data$number    # Años desde la democratización (cuántos años que han pasado desde la transición?) h3: mientras mas años en democracia, mas candidatos presidenciales
-vi4 <- data$dep_as    # Numero de diputados (cuántos diputados) h4: mientras mas diputados, mas candidatos presidenciales
+vd  <- data$enpv_bn           # número de partidos políticos (Y)
+vi1 <- data$dep_dm_1tier      # número de diputados - H1: a medida que aumenta el número de diputados (X1), aumenta el número de partidos políticos (Y)
+vi2 <- data$pres_term         # años de mandato presidencial - H2: a medida que aumenta el número de años de mandato (X2), aumenta el número de partidos políticos (Y)
+vi3 <- data$pres_power        # poder presidencial - H3: a medida que aumenta el poder presidencial (X3), disminuye el número de partidos políticos (Y)
+vi4 <- data$const_instability # inestabilidad constitucional - H4: a medida que aumenta la inestabilidad constitucional (X4), aumenta el número de partidos (Y)
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
