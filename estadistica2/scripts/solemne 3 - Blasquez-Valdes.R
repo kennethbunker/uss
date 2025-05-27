@@ -60,11 +60,11 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$enpv_bn           # número de partidos políticos (Y)
-vi1 <- data$dep_dm_1tier      # número de diputados - H1: a medida que aumenta el número de diputados (X1), aumenta el número de partidos políticos (Y)
-vi2 <- data$pres_term         # años de mandato presidencial - H2: a medida que aumenta el número de años de mandato (X2), aumenta el número de partidos políticos (Y)
-vi3 <- data$pres_power        # poder presidencial - H3: a medida que aumenta el poder presidencial (X3), disminuye el número de partidos políticos (Y)
-vi4 <- data$const_instability # inestabilidad constitucional - H4: a medida que aumenta la inestabilidad constitucional (X4), aumenta el número de partidos (Y)
+vd  <- data$coord1D_normal_all# polarización (Y)
+vi1 <- data$edad              # edad - H1: a medida que aumenta edad (X1), la polarización del legislador disminuye (Y)
+vi2 <- data$p_votos           # porcentaje de voto - H2: a medida que disminuye el porcentaje de votos del candidato (X2), la polarización aumenta (Y)
+vi3 <- data$p_votos_ld        # porcentaje de votos lista - H3: a medida que aumenta porcentaje de votos de la lista (X3), la polarización del legislador disminuye (Y)
+vi4 <- data$sexo              # sexo - H4: las mujeres son más polarizadas que los hombres (Y)
 
 ###################################################
 # EXPLORAR DATOS - TABLA 1
@@ -106,7 +106,7 @@ max(vi4, na.rm = T)
 # Gráficos tipo boxplot para identificar valores extremos (solo sirve con valores continuos--no dummy)
 ###################################################
 
-boxplot(vd, main="Variable Dependiente")
+boxplot(vd, main="Polarización")
 boxplot(vi1, main="Variable Independiente 1")
 boxplot(vi2, main="Variable Independiente 2")
 boxplot(vi3, main="Variable Independiente 3")
