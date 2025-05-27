@@ -67,7 +67,7 @@ vi3 <- data$pres_power        # poder presidencial - H3: a medida que aumenta el
 vi4 <- data$const_instability # inestabilidad constitucional - H4: a medida que aumenta la inestabilidad constitucional (X4), aumenta el número de partidos (Y)
 
 ###################################################
-# EXPLORAR DATOS (TABLAS)
+# EXPLORAR DATOS - TABLA 1
 # Estadísticos descriptivos (media, desviación estándar, mínimo y máximo)
 ###################################################
 
@@ -146,7 +146,7 @@ plot(vi1, vd,
      xlab="Variable Independiente")
 
 ###################################################
-# REGRESIÓN
+# REGRESIÓN - TABLA 2
 # Modelos de regresión lineal simple y múltiple
 ###################################################
 
