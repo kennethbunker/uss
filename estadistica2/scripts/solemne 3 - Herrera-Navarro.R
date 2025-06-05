@@ -35,23 +35,23 @@ library("see")
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
-#setwd("/ruta/a/tu/directorio/")
-#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/herrera_navarro.xlsx")
+setwd("/Dropbox/GitHub/uss/estadistica2/data/")
+data <- read_xlsx("herrera_navarro.xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
 ###################################################
 
 # Importar de Github
-github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
+#github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # ABRIR DATOS 2025-1
 # Cargar base de datos apellido.csv desde Github
 ###################################################
 
-data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
-data <- read.csv(text = data2)
+#data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
+#data <- read.csv(text = data2)
 
 ###################################################
 # LIMPIAR BASE
@@ -67,11 +67,11 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$extremo              # posicion extrema (distancia del centro)
-vi1 <- data$votos                # número de votos. H1: a medida que aumenta el número de votos, aumneta la distancia del centro
-vi2 <- data$transicion           # número de años desde la transicion. H2: a medida que aumenta el número de años desde 1990, aumenta la distancia del centro
-vi3 <- data$sector_politico      # posicion ideologicia. H3: a medida que disminuye el puntaje en la escala ideologica, aumenta la distancia del centro
-vi4 <- data$independiente        # independiente. H4: los independientes son mas extremos que los no-independientes
+vd  <- data$días        # total de días en el poder
+vi1 <- data$edad        # años. H1: a medida que aumenta el número de años del ministro, aumenta el número de días en el poder
+vi2 <- as.numeric(data$debut)       # año de nombramiento del ministro. H2: a medida que aumenta el año de nombramiento, disminuye el númerod e días en el poder
+vi3 <- data$experiencia # experiencia política. H3: a medida que aumenta la experiencia política, aumenta el número de días en el poder
+vi4 <- data$sexo        # sexo H4: los hombres durán más que las mujeres en el poder
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -171,6 +171,12 @@ nobs(modelo2)
 modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
+
+## Modelo 4: Regresión simple (vd ~ vi4)
+modelo4 <- lm(vd ~ vi4)
+summary(modelo4)
+nobs(modelo4)
+
 
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
 modelo4 <- lm(vd ~ vi1 + vi3)
