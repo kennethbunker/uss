@@ -36,7 +36,7 @@ library("see")
 
 ## Establecer directorio de trabajo en tu computador
 #setwd("/estadistica2_cony")
-#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/blasquez_valdes.xlsx")
+#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/ibarra.xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
@@ -50,8 +50,8 @@ github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2
 # Cargar base de datos CSV desde Github
 ###################################################
 
-data2 <- getURL(paste0(github,"blasquez_valdes.csv")) 
-data <- read.csv(text = data2)
+#data2 <- getURL(paste0(github,"ibarra.csv")) 
+#data <- read.csv(text = data2)
 
 ###################################################
 # DEFINICIÓN DE VARIABLES / HIPOTESIS
