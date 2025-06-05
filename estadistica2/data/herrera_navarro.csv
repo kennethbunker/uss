@@ -1,233 +1,233 @@
-﻿name,president,start_president,end_president,ministry,start_minister,end_minister,días,edad,año nombramiento,sexo,politico
-"Eyzaguirre Guzmán, Nicolás",Ricardo Lagos,2000-03-11,2006-03-11,Hacienda,2000-03-11,2006-03-11,2191,47,2000,0,1
-"Larraín Bascuñan, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Hacienda,2010-03-11,2014-03-11,1461,52,2010,0,1
-"Marfán Lewis, Manuel",Eduardo Frei,1994-03-11,2000-03-11,Hacienda,1999-12-03,2000-03-11,99,46,1999,0,1
-"Velasco Brañes , Andrés",Michelle Bachelet,2006-03-11,2010-03-11,Hacienda,2006-03-11,2010-03-11,1461,45,2006,0,1
-"Figueroa Serrano, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Interior,1994-09-20,1998-08-01,1411,64,1994,0,0
-"Hinzpeter Kirberg, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Interior,2010-03-11,2012-11-05,970,44,2010,0,0
-"Pérez Yoma, Edmundo",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2008-01-08,2010-03-11,793,68,2008,0,0
-"Zaldívar Larraín, Andrés",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2006-03-11,2006-07-14,125,69,2006,0,0
-"Chadwick Piñera, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,Interior y Seguridad Pública,2012-11-05,2014-03-11,491,56,2012,0,1
-"Barría Iroume, María Soledad",Michelle Bachelet,2006-03-11,2010-03-11,Salud,2006-03-11,2008-10-28,962,52,2006,1,0
-"Chadwick Piñera, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2011-07-18,2012-11-05,476,55,2011,0,1
-"Lagos Weber, Ricardo",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2006-03-11,2007-12-06,635,44,2006,0,1
-"Puccio Huidobro, Osvaldo",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2005-05-24,2006-03-11,291,52,2005,0,1
-"Tohá Morales, Carolina",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2009-03-12,2009-12-14,277,43,2009,1,1
-"García Hurtado, Álvaro",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2000-03-11,2002-01-07,667,45,2000,0,1
-"Larroulet Vignau, Cristián",Sebastián Piñera,2010-03-11,2014-03-11,SEGPRES,2010-03-11,2014-03-11,1461,56,2010,0,1
-"Viera-Gallo Quesney, José Antonio",Michelle Bachelet,2006-03-11,2010-03-11,SEGPRES,2007-03-26,2010-03-11,1081,63,2007,0,1
-"Veloso Valenzuela, Paulina",Michelle Bachelet,2006-03-11,2010-03-11,SEGPRES,2006-03-11,2007-03-26,380,49,2006,1,1
-"Ortega Riquelme, Emiliano",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1994-03-11,1996-09-28,932,56,1994,0,0
-"Orrego Larraín, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2000-03-11,2000-12-29,293,34,2000,0,0
-"Pérez Mackenna, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Bienes Nacionales,2012-11-05,2014-03-11,491,51,2012,0,0
-"Parot Donoso, Catalina",Sebastián Piñera,2010-03-11,2014-03-11,Bienes Nacionales,2010-03-11,2012-11-05,970,54,2010,1,0
-"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,Comisión Nacional de Energía,2000-03-11,2001-06-19,465,40,2000,0,0
-"García Hurtado, Álvaro",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-01-01,1998-08-01,212,43,1998,0,0
-"Tohá González, Jaime",Patricio Aylwin,1990-03-11,1994-03-11,Comisión Nacional de Energía,1990-03-11,1994-03-11,1461,51,1990,0,0
-"Cruz Coke Carvallo, Luciano",Sebastián Piñera,2010-03-11,2014-03-11,Consejo Nacional de la Cultura y las Artes,2010-03-11,2013-06-06,1183,39,2010,0,0
-"Sandoval Precht, Felipe",Eduardo Frei,1994-03-11,2000-03-11,CORFO,1994-03-11,1997-11-29,1359,36,1994,0,0
-"Allamand Zavala, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2011-01-16,2012-11-05,659,54,2011,0,0
-"Guzmán Correa, José",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1998-08-01,1999-06-22,325,69,1998,0,0
-"Hinzpeter Kirberg, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2012-11-05,2014-03-11,491,47,2012,0,0
-"Pérez Yoma, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1994-03-11,1998-01-16,1407,55,1994,0,0
-"Pérez Yoma, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1999-06-22,2000-03-11,263,60,1999,0,0
-"Ruiz Tagle Correa, Gabriel",Sebastián Piñera,2010-03-11,2014-03-11,Deportes,2013-11-14,2014-03-11,117,59,2013,0,0
-"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,"Economía, Fomento y Reconstrucción",2000-03-11,2001-06-19,465,40,2000,0,0
-"García Hurtado, Álvaro",Eduardo Frei,1994-03-11,2000-03-11,"Economía, Fomento y Reconstrucción",1994-03-11,1998-08-01,1604,39,1994,0,0
-"Marshall Rivera, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1992-09-28,1993-12-16,444,38,1992,0,0
-"Ominami Pascual, Carlos",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1990-03-11,1992-09-28,932,39,1990,0,0
-"Tohá González, Jaime",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1993-12-15,1994-03-11,86,55,1993,0,0
-"Fontaine Talavera, Juan Andres",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2010-03-11,2011-07-18,494,54,2010,0,0
-"Arellano Marín, José Pablo",Eduardo Frei,1994-03-11,2000-03-11,Educación,1996-09-28,2000-03-11,1260,44,1996,0,0
-"Bulnes Serrano, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2011-07-18,2011-12-29,164,42,2011,0,0
-"Lagos Escobar, Ricardo",Patricio Aylwin,1990-03-11,1994-03-11,Educación,1990-03-11,1992-09-28,932,52,1990,0,0
-"Lavín Infante, Joaquín",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2010-03-11,2011-07-18,494,56,2010,0,0
-"Aylwin Oyarzún, Mariana",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2000-03-11,2003-03-03,1087,50,2000,1,0
-"Jiménez de la Jara, Mónica",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2008-04-18,2010-03-11,692,67,2008,1,0
-"Schmidt Zaldívar, Carolina",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2013-04-22,2014-03-11,323,43,2013,1,0
-"Bunster Betteley, Jorge",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2012-04-03,2014-03-11,707,59,2012,0,0
-"Bulnes Serrano, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2010-03-11,2011-07-18,494,40,2010,0,0
-"Maldonado Curti, Carlos",Michelle Bachelet,2006-03-11,2010-03-11,Justicia,2007-03-26,2010-03-11,1081,43,2007,0,0
-"Ribera Neumann, Teodoro",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2011-07-18,2012-12-17,518,53,2011,0,0
-"Alvear Valenzuela, Soledad",Eduardo Frei,1994-03-11,2000-03-11,Justicia,1994-03-11,1999-12-16,2106,43,1994,1,0
-"Kast Sommerhoff, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,MIDEPLAN,2010-03-11,2011-07-18,494,32,2010,0,0
-"Lavín Infante, Joaquín",Sebastián Piñera,2010-03-11,2014-03-11,MIDEPLAN,2011-07-18,2013-06-06,689,57,2011,0,0
-"Palma Irarrázaval, Andrés",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2003-03-03,2004-09-29,576,47,2003,0,0
-"Pizarro Hofer, Roberto",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1996-10-01,1998-03-05,520,51,1996,0,0
-"Krauss Valle, Alejandra",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2000-03-11,2002-01-07,667,43,2000,1,0
-"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2000-03-11,2001-06-19,465,40,2000,0,0
-"González Larraín, Santiago",Michelle Bachelet,2006-03-11,2010-03-11,Minería,2008-01-08,2010-03-11,793,51,2008,0,0
-"Hurtado Ruiz-Tagle, Carlos",Patricio Aylwin,1990-03-11,1994-03-11,Obras Públicas,1990-03-11,1994-03-11,1461,53,1990,0,0
-"Lagos Escobar, Ricardo",Eduardo Frei,1994-03-11,2000-03-11,Obras Públicas,1994-03-11,1998-08-01,1604,56,1994,0,0
-"Tohá González, Jaime",Eduardo Frei,1994-03-11,2000-03-11,Obras Públicas,1998-08-01,2000-03-09,586,60,1998,0,0
-"Figueroa Serrano, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1994-03-11,1994-09-20,193,64,1994,0,0
-"Moreno Charme, Alfredo",Sebastián Piñera,2010-03-11,2014-03-11,Relaciones Exteriores,2010-03-11,2014-03-11,1461,53,2010,0,0
-"Silva Cimma, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,Relaciones Exteriores,1990-03-11,1994-03-11,1461,71,1990,0,0
-"Valdés Soublette, Juan Gabriel",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1999-06-22,2000-03-11,263,52,1999,0,0
-"Walker Prieto, Ignacio",Ricardo Lagos,2000-03-11,2006-03-11,Relaciones Exteriores,2004-09-29,2006-03-11,528,48,2004,0,0
-"Alvear Valenzuela, Soledad",Ricardo Lagos,2000-03-11,2006-03-11,Relaciones Exteriores,2000-03-11,2004-09-29,1663,49,2000,1,0
-"Jiménez de la Jara, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,Salud,1990-03-11,1992-10-30,964,45,1990,0,0
-"Montt Momberg, Julio",Patricio Aylwin,1990-03-11,1994-03-11,Salud,1992-10-30,1994-03-11,497,66,1992,0,0
-"Alvear Valenzuela, Soledad",Patricio Aylwin,1990-03-11,1994-03-11,SERNAM,1991-01-03,1994-03-11,1163,40,1991,1,0
-"Andrade Lara , Carmen",Michelle Bachelet,2006-03-11,2010-03-11,SERNAM,2009-10-20,2010-03-11,142,55,2009,1,0
-"Schmidt Zaldívar, Carolina",Sebastián Piñera,2010-03-11,2014-03-11,SERNAM,2010-03-11,2013-04-22,1138,40,2010,1,0
-"Andrade Lara , Osvaldo",Michelle Bachelet,2006-03-11,2010-03-11,Trabajo y Previsión Social,2006-03-11,2008-12-10,1005,52,2006,0,0
-"Jobet Eluchans, Juan Carlos",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2013-07-24,2014-03-11,230,37,2013,0,0
-"Matthei Fornet, Evelyn",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2011-01-16,2013-07-20,916,57,2011,1,0
-"Errázuriz Domínguez, Pedro Pablo",Sebastián Piñera,2010-03-11,2014-03-11,Transporte y Telecomunicaciones,2011-01-16,2014-03-11,1150,49,2011,0,0
-"Morandé Lavín, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Transporte y Telecomunicaciones,2010-03-11,2011-01-14,309,54,2010,0,0
-"Orrego Larraín, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2000-03-11,2000-12-29,293,34,2000,0,0
-"Pérez Mackenna, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Vivienda y Urbanismo,2011-04-19,2014-03-11,1057,50,2011,0,0
-"Matte Lecaros, Magdalena",Sebastián Piñera,2010-03-11,2014-03-11,Vivienda y Urbanismo,2010-03-11,2011-04-19,404,59,2010,1,0
-"Aninat Ureta, Eduardo",Eduardo Frei,1994-03-11,2000-03-11,Hacienda,1994-03-11,1999-12-03,2093,46,1994,0,1
-"Foxley Rioseco, Alejandro",Patricio Aylwin,1990-03-11,1994-03-11,Hacienda,1990-03-11,1994-03-11,1461,50,1990,0,1
-"Correa Díaz, Germán",Eduardo Frei,1994-03-11,2000-03-11,Interior,1994-03-11,1994-09-20,193,54,1994,0,0
-"Insulza Salinas, José Miguel",Ricardo Lagos,2000-03-11,2006-03-11,Interior,2000-03-11,2005-05-24,1900,56,2000,0,0
-"Krauss Rusque, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,Interior,1990-03-11,1994-03-11,1461,58,1990,0,0
-"Troncoso Castillo, Raúl",Eduardo Frei,1994-03-11,2000-03-11,Interior,1998-08-01,2000-03-11,588,63,1998,0,0
-"Velasco Baraona, Belisario",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2006-07-14,2008-01-04,539,70,2006,0,0
-"Vidal Salinas, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,Interior,2005-05-24,2006-03-11,291,51,2005,0,0
-"Arrate Mac Niven, Jorge",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1998-08-01,1999-06-22,325,57,1998,0,1
-"Brunner Ried, José Joaquín",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1994-09-20,1998-08-01,1411,49,1994,0,1
-"Correa Rios, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,SEGEGOB,1990-03-11,1994-03-11,1461,44,1990,0,1
-"Huepe García, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2000-03-11,2002-01-07,667,60,2000,0,1
-"Mladinic Alonso, Carlos",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1999-06-22,2000-03-11,263,44,1999,0,1
-"Muñoz Valenzuela, Heraldo",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2002-01-07,2003-03-03,420,53,2002,0,1
-"Rebolledo González, Víctor Manuel",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1994-03-11,1994-09-20,193,44,1994,0,1
-"Vidal Salinas, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2003-03-03,2005-05-24,813,49,2003,0,1
-"Vidal Salinas, Francisco",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2007-12-06,2009-03-12,462,54,2007,0,1
-"Armanet Armanet, Pilar",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2009-12-18,2010-03-11,83,59,2009,1,1
-"Pérez Jara, Cecilia",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2012-11-05,2014-03-11,491,38,2012,1,1
-"Von Baer Jahn, Ena",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2010-03-11,2011-07-18,494,35,2010,1,1
-"Arriagada Herrera, Genaro",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1994-03-11,1996-09-28,932,51,1994,0,1
-"Biehl del Rio, John",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1998-08-01,1999-06-22,325,58,1998,0,1
-"Boeninger Kausel, Edgardo",Patricio Aylwin,1990-03-11,1994-03-11,SEGPRES,1990-03-11,1994-03-11,1461,64,1990,0,1
-"Dockendorff Vallejos, Eduardo",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2004-06-03,2006-03-11,646,55,2004,0,1
-"Fernández Baeza, Mario",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2002-01-07,2003-03-03,420,54,2002,0,1
-"Huenchumilla Jaramillo, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2003-03-03,2004-06-03,458,58,2003,0,1
-"Insulza Salinas, José Miguel",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1999-06-22,2000-03-11,263,56,1999,0,1
-"Villarzú Rohde, Juan",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1996-09-28,1998-08-01,672,52,1996,0,1
-"Campos Quiroga, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Agricultura,2000-03-11,2006-03-11,2191,47,2000,0,0
-"Figueroa Yávar, Juan Agustín",Patricio Aylwin,1990-03-11,1994-03-11,Agricultura,1990-03-11,1994-03-11,1461,56,1990,0,0
-"Galilea Vidaurre, José Antonio",Sebastián Piñera,2010-03-11,2014-03-11,Agricultura,2010-03-11,2011-12-29,658,48,2010,0,0
-"Mayol Bouchon, Luis",Sebastián Piñera,2010-03-11,2014-03-11,Agricultura,2011-12-29,2014-03-11,803,59,2011,0,0
-"Mladinic Alonso, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1996-09-28,1999-06-22,997,41,1996,0,0
-"Rojas Marín, Álvaro",Michelle Bachelet,2006-03-11,2010-03-11,Agricultura,2006-03-11,2008-01-08,668,52,2006,0,0
-"Sartori Arellano, Ángel",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1999-06-22,2000-03-11,263,51,1999,0,0
-"Hornkohl Venegas, Marigen",Michelle Bachelet,2006-03-11,2010-03-11,Agricultura,2008-01-08,2010-03-11,793,54,2008,1,0
-"Alvarado Constenla, Luis",Patricio Aylwin,1990-03-11,1994-03-11,Bienes Nacionales,1990-03-11,1994-03-11,1461,49,1990,0,0
-"Galilea Ocón, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1999-08-13,2000-03-11,211,51,1999,0,0
-"Heine Lorenzen, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1999-04-13,1999-08-13,122,50,1999,0,0
-"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2000-12-29,2004-10-01,1372,54,2000,0,0
-"Delpiano Puelma, Adriana",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1994-03-11,1999-04-13,1859,47,1994,1,0
-"Schmidt Crnosija, Romy",Michelle Bachelet,2006-03-11,2010-03-11,Bienes Nacionales,2006-03-11,2010-01-06,1397,40,2006,1,0
-"Tschorne Berestesky, Sonia",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2004-09-29,2006-03-11,528,49,2004,1,0
-"Weinstein Levy, Jacqueline",Michelle Bachelet,2006-03-11,2010-03-11,Bienes Nacionales,2010-01-06,2010-03-11,64,61,2010,1,0
-"Jadresic Marinovic, Alejandro",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1994-03-11,1998-01-01,1392,37,1994,0,0
-"Landerretche Gacitúa, Óscar",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-11-24,2000-03-11,473,49,1998,0,0
-"Leiva Lavalle, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-08-04,1998-11-24,112,59,1998,0,0
-"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,Comisión Nacional de Energía,2001-06-19,2006-03-11,1726,53,2001,0,0
-"Tokman Ramos, Marcelo",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Energía,2007-03-26,2010-03-11,1081,39,2007,0,0
-"Poniachik Pollak, Karen",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Energía,2006-03-11,2007-03-27,381,40,2006,1,0
-"Uriarte Rodríguez, Ana Lya",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Medio Ambiente,2007-03-26,2010-03-11,1081,44,2007,1,0
-"Ampuero Espinoza, Roberto",Sebastián Piñera,2010-03-11,2014-03-11,Consejo Nacional de la Cultura y las Artes,2013-06-09,2014-03-11,275,57,2013,0,0
-"Weinstein Cayuela, José",Ricardo Lagos,2000-03-11,2006-03-11,Consejo Nacional de la Cultura y las Artes,2003-08-06,2006-03-11,948,44,2003,0,0
-"Urrutia Fernández, Paulina",Michelle Bachelet,2006-03-11,2010-03-11,Consejo Nacional de la Cultura y las Artes,2006-03-11,2010-03-11,1461,37,2006,1,0
-"Abeliuk Manasevic, René",Patricio Aylwin,1990-03-11,1994-03-11,CORFO,1990-03-11,1994-03-11,1461,59,1990,0,0
-"Fernández Baeza, Mario",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2000-03-11,2002-01-07,667,52,2000,0,0
-"Goñi Carrasco, José",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2007-03-26,2009-03-12,717,59,2007,0,0
-"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2004-10-01,2006-03-11,526,57,2004,0,0
-"Ravinet de La Fuente, Jaime",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2010-03-11,2011-01-14,309,63,2010,0,0
-"Rojas Saavedra, Patricio",Patricio Aylwin,1990-03-11,1994-03-11,Defensa Nacional,1990-03-11,1994-03-11,1461,57,1990,0,0
-"Troncoso Castillo, Raúl",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1998-01-16,1998-08-01,197,62,1998,0,0
-"Vidal Salinas, Francisco",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2009-03-12,2010-03-11,364,55,2009,0,0
-"Bachelet Jeria, Michelle",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2002-01-07,2004-09-29,996,50,2002,1,0
-"Blanlot Soza, Vivianne",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2006-03-11,2007-03-26,380,50,2006,1,0
-"Baranda Ferran, Bruno",Sebastián Piñera,2010-03-11,2014-03-11,Desarrollo Social,2013-06-09,2014-03-11,275,49,2013,0,0
-"Ferreiro Yazigi, Alejandro",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2006-07-14,2008-01-08,543,40,2006,0,0
-"Lavados Montes, Hugo",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2008-01-08,2010-03-11,793,58,2008,0,0
-"Leiva Lavalle, Jorge",Eduardo Frei,1994-03-11,2000-03-11,"Economía, Fomento y Reconstrucción",1998-08-01,2000-03-11,588,59,1998,0,0
-"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,"Economía, Fomento y Reconstrucción",2001-06-19,2006-03-11,1726,53,2001,0,0
-"Antonijevic Hahn, Ingrid",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2006-03-11,2006-07-14,125,53,2006,1,0
-"De Vicente Mingo, Felix",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2013-05-07,2014-03-11,308,50,2013,0,0
-"Longueira Montes, Pablo",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2011-07-18,2013-04-29,651,52,2011,0,0
-"Arrate Mac Niven, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,Educación,1992-09-28,1994-03-11,529,51,1992,0,0
-"Beyer Burgos, Harald",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2011-12-29,2013-04-18,476,47,2011,0,0
-"Bitar Chacra, Sergio",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2003-03-03,2005-12-14,1017,62,2003,0,0
-"Molina Silva, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Educación,1994-09-26,1996-09-28,733,65,1994,0,0
-"Schiefelbein Fuenzalida, Ernesto",Eduardo Frei,1994-03-11,2000-03-11,Educación,1994-03-11,1994-09-20,193,59,1994,0,0
-"Zilic Hrepic, Martín",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2006-03-11,2006-07-14,125,58,2006,0,0
-"Hornkohl Venegas, Marigen",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2005-12-14,2006-03-11,87,52,2005,1,0
-"Provoste Campillay, Yasna",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2006-07-14,2008-04-03,629,36,2006,1,0
-"Echeverría Vial, Fernando",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-07-18,2011-07-21,3,57,2011,0,0
-"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-01-16,2011-07-18,183,49,2011,0,0
-"Rainieri Bernain, Ricardo",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2010-03-11,2011-01-14,309,48,2010,0,0
-"Álvarez Zenteno, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-07-22,2012-03-27,249,44,2011,0,0
-"Bates Hidalgo, Luis",Ricardo Lagos,2000-03-11,2006-03-11,Justicia,2003-03-03,2006-03-11,1104,68,2003,0,0
-"Cumplido Cereceda, Francisco",Patricio Aylwin,1990-03-11,1994-03-11,Justicia,1990-03-11,1994-03-11,1461,59,1990,0,0
-"Gómez Urrutia, José Antonio",Ricardo Lagos,2000-03-11,2006-03-11,Justicia,2000-03-11,2003-03-03,1087,46,2000,0,0
-"Gómez Urrutia, José Antonio",Eduardo Frei,1994-03-11,2000-03-11,Justicia,1999-12-15,2000-03-11,87,45,1999,0,0
-"Solís Palma, Isidro",Michelle Bachelet,2006-03-11,2010-03-11,Justicia,2006-03-11,2007-03-27,381,51,2006,0,0
-"Pérez Goldberg, Patricia",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2012-12-17,2014-03-11,449,38,2012,1,0
-"Benítez Pereira, María Ignacia",Sebastián Piñera,2010-03-11,2014-03-11,Medio Ambiente,2010-03-11,2014-03-11,1461,57,2010,1,0
-"Maira Aguirre, Luis",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1994-03-11,1996-09-28,932,53,1994,0,0
-"Molina Silva, Sergio",Patricio Aylwin,1990-03-11,1994-03-11,MIDEPLAN,1990-03-11,1994-03-11,1461,61,1990,0,0
-"Quintana Peña, Germán",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1998-05-19,2000-03-11,662,38,1998,0,0
-"Hardy Raskovan , Clarisa",Michelle Bachelet,2006-03-11,2010-03-11,MIDEPLAN,2006-03-11,2008-01-08,668,60,2006,1,0
-"Provoste Campillay, Yasna",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2004-09-29,2006-03-11,528,34,2004,1,0
-"Pérez Díaz, Cecilia",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2002-01-07,2003-03-03,420,35,2002,1,0
-"Quintana Meléndez, Paula",Michelle Bachelet,2006-03-11,2010-03-11,MIDEPLAN,2008-01-08,2010-03-11,793,42,2008,1,0
-"De Solminihac Tampier, Hernán",Sebastián Piñera,2010-03-11,2014-03-11,Minería,2011-07-18,2014-03-11,967,53,2011,0,0
-"Dulanto Rencoret, Alfonso",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2002-01-07,2006-03-11,1524,58,2002,0,0
-"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Minería,2010-03-11,2011-07-18,494,48,2010,0,0
-"Hales Jamarne, Alejandro",Patricio Aylwin,1990-03-11,1994-03-11,Minería,1992-09-28,1994-03-11,529,69,1992,0,0
-"Hamilton Depassier, Juan",Patricio Aylwin,1990-03-11,1994-03-11,Minería,1990-03-11,1992-09-28,932,62,1990,0,0
-"Jiménez Moraga, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Minería,1997-08-13,2000-03-11,941,64,1997,0,0
-"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2001-06-19,2002-01-07,202,53,2001,0,0
-"Teplizky Lijavetzky, Benjamín",Eduardo Frei,1994-03-11,2000-03-11,Minería,1994-03-11,1997-08-03,1241,61,1994,0,0
-"Poniachik Pollak, Karen",Michelle Bachelet,2006-03-11,2010-03-11,Minería,2006-03-11,2008-01-08,668,40,2006,1,0
-"Bitar Chacra, Sergio",Michelle Bachelet,2006-03-11,2010-03-11,Obras Públicas,2008-01-11,2010-03-11,790,67,2008,0,0
-"Bitrán Colodro, Eduardo",Michelle Bachelet,2006-03-11,2010-03-11,Obras Públicas,2006-03-11,2008-01-08,668,48,2006,0,0
-"Cruz Lorenzen, Carlos",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2000-03-11,2002-01-07,667,48,2000,0,0
-"De Solminihac Tampier, Hernán",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2010-03-11,2011-07-18,494,52,2010,0,0
-"Estévez Valencia, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2005-01-03,2006-03-11,432,58,2005,0,0
-"Etcheberry Celhay, Javier",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2002-01-07,2005-01-03,1092,54,2002,0,0
-"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2011-07-18,2012-11-05,476,50,2011,0,0
-"Silva Rojas, María Loreto",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2012-11-05,2014-03-11,491,48,2012,1,0
-"Fernández Amunátegui , Mariano",Michelle Bachelet,2006-03-11,2010-03-11,Relaciones Exteriores,2009-03-13,2010-03-11,363,63,2009,0,0
-"Foxley Rioseco, Alejandro",Michelle Bachelet,2006-03-11,2010-03-11,Relaciones Exteriores,2006-03-11,2009-03-12,1097,66,2006,0,0
-"Insulza Salinas, José Miguel",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1994-09-20,1999-06-22,1736,51,1994,0,0
-"Artaza Barrios, Osvaldo",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2002-01-07,2003-03-03,420,46,2002,0,0
-"Erazo Latorre, Álvaro",Michelle Bachelet,2006-03-11,2010-03-11,Salud,2008-11-06,2010-03-11,490,50,2008,0,0
-"Figueroa Muñoz, Álex",Eduardo Frei,1994-03-11,2000-03-11,Salud,1996-08-07,2000-03-11,1312,34,1996,0,0
-"García Aspillaga, Pedro",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2003-03-03,2006-03-11,1104,42,2003,0,0
-"Massad Abud, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Salud,1994-03-11,1996-08-07,880,61,1994,0,0
-"Mañalich Muxi, Jaime",Sebastián Piñera,2010-03-11,2014-03-11,Salud,2010-03-11,2014-03-11,1461,55,2010,0,0
-"Bachelet Jeria, Michelle",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2000-03-11,2002-01-07,667,48,2000,1,0
-"Albornoz Pollman, Laura",Michelle Bachelet,2006-03-11,2010-03-11,SERNAM,2006-03-11,2009-10-19,1318,37,2006,1,0
-"Bilbao Mendezona, Josefina",Eduardo Frei,1994-03-11,2000-03-11,SERNAM,1994-03-11,2000-03-11,2192,61,1994,1,0
-"Delpiano Puelma, Adriana",Ricardo Lagos,2000-03-11,2006-03-11,SERNAM,2000-03-11,2003-03-03,1087,53,2000,1,0
-"Pérez Díaz, Cecilia",Ricardo Lagos,2000-03-11,2006-03-11,SERNAM,2003-03-03,2006-03-11,1104,36,2003,1,0
-"Seguel King, Loreto",Sebastián Piñera,2010-03-11,2014-03-11,SERNAM,2013-04-22,2014-03-11,323,36,2013,1,0
-"Arrate Mac Niven, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Trabajo y Previsión Social,1994-03-11,1998-08-01,1604,52,1994,0,0
-"Cortázar Sanz, René",Patricio Aylwin,1990-03-11,1994-03-11,Trabajo y Previsión Social,1990-03-11,1994-03-11,1461,38,1990,0,0
-"Ljubetic Godoy, Yerko",Ricardo Lagos,2000-03-11,2006-03-11,Trabajo y Previsión Social,2005-04-22,2006-03-11,323,44,2005,0,0
-"Molina Valdivieso, Germán",Eduardo Frei,1994-03-11,2000-03-11,Trabajo y Previsión Social,1998-08-01,2000-03-11,588,55,1998,0,0
-"Solari Saavedra, Ricardo",Ricardo Lagos,2000-03-11,2006-03-11,Trabajo y Previsión Social,2000-03-11,2005-04-25,1871,45,2000,0,0
-"Merino Catalán, Camila",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2010-03-11,2011-01-14,309,42,2010,1,0
-"Serrano Madrid, Claudia",Michelle Bachelet,2006-03-11,2010-03-11,Trabajo y Previsión Social,2008-12-15,2010-03-11,451,51,2008,1,0
-"Correa Díaz, Germán",Patricio Aylwin,1990-03-11,1994-03-11,Transporte y Telecomunicaciones,1990-03-11,1992-09-28,932,50,1990,0,0
-"Cortázar Sanz, René",Michelle Bachelet,2006-03-11,2010-03-11,Transporte y Telecomunicaciones,2007-03-27,2010-03-11,1080,55,2007,0,0
-"Cruz Lorenzen, Carlos",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2000-03-11,2002-01-07,667,48,2000,0,0
-"Espejo Yaksic, Sergio",Michelle Bachelet,2006-03-11,2010-03-11,Transporte y Telecomunicaciones,2006-03-11,2007-03-27,381,38,2006,0,0
-"Estévez Valencia, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2005-01-03,2006-03-11,432,58,2005,0,0
-"Etcheberry Celhay, Javier",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2002-01-07,2005-01-03,1092,54,2002,0,0
-"Hohmann Barrientos, Claudio",Eduardo Frei,1994-03-11,2000-03-11,Transporte y Telecomunicaciones,1996-09-28,2000-03-11,1260,42,1996,0,0
-"Irureta Aburto, Narciso",Eduardo Frei,1994-03-11,2000-03-11,Transporte y Telecomunicaciones,1994-03-11,1996-09-28,932,69,1994,0,0
-"Molina Valdivieso, Germán",Patricio Aylwin,1990-03-11,1994-03-11,Transporte y Telecomunicaciones,1992-09-28,1994-03-11,529,49,1992,0,0
-"Etchegaray Aubry, Alberto",Patricio Aylwin,1990-03-11,1994-03-11,Vivienda y Urbanismo,1990-03-11,1994-03-11,1461,44,1990,0,0
-"Henríquez Díaz, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Vivienda y Urbanismo,1997-07-24,2000-03-11,961,42,1997,0,0
-"Hermosilla Hermosilla, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Vivienda y Urbanismo,1994-03-11,1997-07-24,1231,37,1994,0,0
-"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2000-12-29,2004-10-01,1372,54,2000,0,0
-"Poblete Bennett, Patricia",Michelle Bachelet,2006-03-11,2010-03-11,Vivienda y Urbanismo,2006-03-11,2010-03-11,1461,59,2006,1,0
-"Tschorne Berestesky, Sonia",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2004-09-29,2006-03-11,528,49,2004,1,0
+﻿name,president,start_president,end_president,ministry,start_minister,end_minister,días,edad,spell,sexo,experiencia,exp_executive,exp_congress,exp_ngo,exp_thinktanks,exp_business
+"Eyzaguirre Guzmán, Nicolás",Ricardo Lagos,2000-03-11,2006-03-11,Hacienda,2000-03-11,2006-03-11,2191,47,2000,0,0,0,0,0,0,0
+"Larraín Bascuñan, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Hacienda,2010-03-11,2014-03-11,1461,52,2010,0,1,0,0,0,0,1
+"Marfán Lewis, Manuel",Eduardo Frei,1994-03-11,2000-03-11,Hacienda,1999-12-03,2000-03-11,99,46,1999,0,0,0,0,0,0,0
+"Velasco Brañes , Andrés",Michelle Bachelet,2006-03-11,2010-03-11,Hacienda,2006-03-11,2010-03-11,1461,45,2006,0,3,1,0,1,1,0
+"Figueroa Serrano, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Interior,1994-09-20,1998-08-01,1411,64,1994,0,1,0,0,1,0,0
+"Hinzpeter Kirberg, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Interior,2010-03-11,2012-11-05,970,44,2010,0,0,0,0,0,0,0
+"Pérez Yoma, Edmundo",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2008-01-08,2010-03-11,793,68,2008,0,2,1,0,0,0,1
+"Zaldívar Larraín, Andrés",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2006-03-11,2006-07-14,125,69,2006,0,2,0,1,1,0,0
+"Chadwick Piñera, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,Interior y Seguridad Pública,2012-11-05,2014-03-11,491,56,2012,0,3,0,1,1,1,0
+"Barría Iroume, María Soledad",Michelle Bachelet,2006-03-11,2010-03-11,Salud,2006-03-11,2008-10-28,962,52,2006,1,0,0,0,0,0,0
+"Chadwick Piñera, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2011-07-18,2012-11-05,476,55,2011,0,3,0,1,1,1,0
+"Lagos Weber, Ricardo",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2006-03-11,2007-12-06,635,44,2006,0,0,0,0,0,0,0
+"Puccio Huidobro, Osvaldo",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2005-05-24,2006-03-11,291,52,2005,0,2,0,0,1,1,0
+"Tohá Morales, Carolina",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2009-03-12,2009-12-14,277,43,2009,1,3,0,1,1,1,0
+"García Hurtado, Álvaro",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2000-03-11,2002-01-07,667,45,2000,0,2,0,0,1,1,0
+"Larroulet Vignau, Cristián",Sebastián Piñera,2010-03-11,2014-03-11,SEGPRES,2010-03-11,2014-03-11,1461,56,2010,0,3,1,0,1,0,1
+"Viera-Gallo Quesney, José Antonio",Michelle Bachelet,2006-03-11,2010-03-11,SEGPRES,2007-03-26,2010-03-11,1081,63,2007,0,2,0,1,1,0,0
+"Veloso Valenzuela, Paulina",Michelle Bachelet,2006-03-11,2010-03-11,SEGPRES,2006-03-11,2007-03-26,380,49,2006,1,1,1,0,0,0,0
+"Ortega Riquelme, Emiliano",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1994-03-11,1996-09-28,932,56,1994,0,3,1,0,1,1,0
+"Orrego Larraín, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2000-03-11,2000-12-29,293,34,2000,0,2,0,0,1,1,0
+"Pérez Mackenna, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Bienes Nacionales,2012-11-05,2014-03-11,491,51,2012,0,1,0,0,0,0,1
+"Parot Donoso, Catalina",Sebastián Piñera,2010-03-11,2014-03-11,Bienes Nacionales,2010-03-11,2012-11-05,970,54,2010,1,0,0,0,0,0,0
+"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,Comisión Nacional de Energía,2000-03-11,2001-06-19,465,40,2000,0,1,1,0,0,0,0
+"García Hurtado, Álvaro",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-01-01,1998-08-01,212,43,1998,0,1,0,0,0,1,0
+"Tohá González, Jaime",Patricio Aylwin,1990-03-11,1994-03-11,Comisión Nacional de Energía,1990-03-11,1994-03-11,1461,51,1990,0,0,0,0,0,0,0
+"Cruz Coke Carvallo, Luciano",Sebastián Piñera,2010-03-11,2014-03-11,Consejo Nacional de la Cultura y las Artes,2010-03-11,2013-06-06,1183,39,2010,0,0,0,0,0,0,0
+"Sandoval Precht, Felipe",Eduardo Frei,1994-03-11,2000-03-11,CORFO,1994-03-11,1997-11-29,1359,36,1994,0,2,0,0,1,1,0
+"Allamand Zavala, Andrés",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2011-01-16,2012-11-05,659,54,2011,0,3,0,1,1,1,0
+"Guzmán Correa, José",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1998-08-01,1999-06-22,325,69,1998,0,1,1,0,0,0,0
+"Hinzpeter Kirberg, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2012-11-05,2014-03-11,491,47,2012,0,0,0,0,0,0,0
+"Pérez Yoma, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1994-03-11,1998-01-16,1407,55,1994,0,1,0,0,0,0,1
+"Pérez Yoma, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1999-06-22,2000-03-11,263,60,1999,0,1,0,0,0,0,1
+"Ruiz Tagle Correa, Gabriel",Sebastián Piñera,2010-03-11,2014-03-11,Deportes,2013-11-14,2014-03-11,117,59,2013,0,1,0,0,0,0,1
+"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,"Economía, Fomento y Reconstrucción",2000-03-11,2001-06-19,465,40,2000,0,1,1,0,0,0,0
+"García Hurtado, Álvaro",Eduardo Frei,1994-03-11,2000-03-11,"Economía, Fomento y Reconstrucción",1994-03-11,1998-08-01,1604,39,1994,0,1,0,0,0,1,0
+"Marshall Rivera, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1992-09-28,1993-12-16,444,38,1992,0,0,0,0,0,0,0
+"Ominami Pascual, Carlos",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1990-03-11,1992-09-28,932,39,1990,0,0,0,0,0,0,0
+"Tohá González, Jaime",Patricio Aylwin,1990-03-11,1994-03-11,"Economía, Fomento y Reconstrucción",1993-12-15,1994-03-11,86,55,1993,0,0,0,0,0,0,0
+"Fontaine Talavera, Juan Andres",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2010-03-11,2011-07-18,494,54,2010,0,3,0,0,1,1,1
+"Arellano Marín, José Pablo",Eduardo Frei,1994-03-11,2000-03-11,Educación,1996-09-28,2000-03-11,1260,44,1996,0,3,1,0,1,1,0
+"Bulnes Serrano, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2011-07-18,2011-12-29,164,42,2011,0,0,0,0,0,0,0
+"Lagos Escobar, Ricardo",Patricio Aylwin,1990-03-11,1994-03-11,Educación,1990-03-11,1992-09-28,932,52,1990,0,0,0,0,0,0,0
+"Lavín Infante, Joaquín",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2010-03-11,2011-07-18,494,56,2010,0,0,0,0,0,0,0
+"Aylwin Oyarzún, Mariana",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2000-03-11,2003-03-03,1087,50,2000,1,1,0,1,0,0,0
+"Jiménez de la Jara, Mónica",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2008-04-18,2010-03-11,692,67,2008,1,1,0,0,1,0,0
+"Schmidt Zaldívar, Carolina",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2013-04-22,2014-03-11,323,43,2013,1,1,0,0,0,0,1
+"Bunster Betteley, Jorge",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2012-04-03,2014-03-11,707,59,2012,0,1,0,0,0,0,1
+"Bulnes Serrano, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2010-03-11,2011-07-18,494,40,2010,0,0,0,0,0,0,0
+"Maldonado Curti, Carlos",Michelle Bachelet,2006-03-11,2010-03-11,Justicia,2007-03-26,2010-03-11,1081,43,2007,0,1,1,0,0,0,0
+"Ribera Neumann, Teodoro",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2011-07-18,2012-12-17,518,53,2011,0,1,0,1,0,0,0
+"Alvear Valenzuela, Soledad",Eduardo Frei,1994-03-11,2000-03-11,Justicia,1994-03-11,1999-12-16,2106,43,1994,1,1,1,0,0,0,0
+"Kast Sommerhoff, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,MIDEPLAN,2010-03-11,2011-07-18,494,32,2010,0,2,0,0,1,1,0
+"Lavín Infante, Joaquín",Sebastián Piñera,2010-03-11,2014-03-11,MIDEPLAN,2011-07-18,2013-06-06,689,57,2011,0,0,0,0,0,0,0
+"Palma Irarrázaval, Andrés",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2003-03-03,2004-09-29,576,47,2003,0,2,0,1,1,0,0
+"Pizarro Hofer, Roberto",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1996-10-01,1998-03-05,520,51,1996,0,0,0,0,0,0,0
+"Krauss Valle, Alejandra",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2000-03-11,2002-01-07,667,43,2000,1,1,0,0,1,0,0
+"De Gregorio Rebeco, José",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2000-03-11,2001-06-19,465,40,2000,0,1,1,0,0,0,0
+"González Larraín, Santiago",Michelle Bachelet,2006-03-11,2010-03-11,Minería,2008-01-08,2010-03-11,793,51,2008,0,2,1,0,0,0,1
+"Hurtado Ruiz-Tagle, Carlos",Patricio Aylwin,1990-03-11,1994-03-11,Obras Públicas,1990-03-11,1994-03-11,1461,53,1990,0,2,0,0,1,0,1
+"Lagos Escobar, Ricardo",Eduardo Frei,1994-03-11,2000-03-11,Obras Públicas,1994-03-11,1998-08-01,1604,56,1994,0,0,0,0,0,0,0
+"Tohá González, Jaime",Eduardo Frei,1994-03-11,2000-03-11,Obras Públicas,1998-08-01,2000-03-09,586,60,1998,0,1,1,0,0,0,0
+"Figueroa Serrano, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1994-03-11,1994-09-20,193,64,1994,0,1,0,0,1,0,0
+"Moreno Charme, Alfredo",Sebastián Piñera,2010-03-11,2014-03-11,Relaciones Exteriores,2010-03-11,2014-03-11,1461,53,2010,0,2,0,0,1,0,1
+"Silva Cimma, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,Relaciones Exteriores,1990-03-11,1994-03-11,1461,71,1990,0,2,1,0,1,0,0
+"Valdés Soublette, Juan Gabriel",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1999-06-22,2000-03-11,263,52,1999,0,0,0,0,0,0,0
+"Walker Prieto, Ignacio",Ricardo Lagos,2000-03-11,2006-03-11,Relaciones Exteriores,2004-09-29,2006-03-11,528,48,2004,0,2,0,1,1,0,0
+"Alvear Valenzuela, Soledad",Ricardo Lagos,2000-03-11,2006-03-11,Relaciones Exteriores,2000-03-11,2004-09-29,1663,49,2000,1,1,1,0,0,0,0
+"Jiménez de la Jara, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,Salud,1990-03-11,1992-10-30,964,45,1990,0,0,0,0,0,0,0
+"Montt Momberg, Julio",Patricio Aylwin,1990-03-11,1994-03-11,Salud,1992-10-30,1994-03-11,497,66,1992,0,3,0,1,1,0,1
+"Alvear Valenzuela, Soledad",Patricio Aylwin,1990-03-11,1994-03-11,SERNAM,1991-01-03,1994-03-11,1163,40,1991,1,1,1,0,0,0,0
+"Andrade Lara , Carmen",Michelle Bachelet,2006-03-11,2010-03-11,SERNAM,2009-10-20,2010-03-11,142,55,2009,1,0,0,0,0,0,0
+"Schmidt Zaldívar, Carolina",Sebastián Piñera,2010-03-11,2014-03-11,SERNAM,2010-03-11,2013-04-22,1138,40,2010,1,1,0,0,0,0,1
+"Andrade Lara , Osvaldo",Michelle Bachelet,2006-03-11,2010-03-11,Trabajo y Previsión Social,2006-03-11,2008-12-10,1005,52,2006,0,1,1,0,0,0,0
+"Jobet Eluchans, Juan Carlos",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2013-07-24,2014-03-11,230,37,2013,0,3,1,0,1,1,0
+"Matthei Fornet, Evelyn",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2011-01-16,2013-07-20,916,57,2011,1,1,0,1,0,0,0
+"Errázuriz Domínguez, Pedro Pablo",Sebastián Piñera,2010-03-11,2014-03-11,Transporte y Telecomunicaciones,2011-01-16,2014-03-11,1150,49,2011,0,1,0,0,0,0,1
+"Morandé Lavín, Felipe",Sebastián Piñera,2010-03-11,2014-03-11,Transporte y Telecomunicaciones,2010-03-11,2011-01-14,309,54,2010,0,1,0,0,0,0,1
+"Orrego Larraín, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2000-03-11,2000-12-29,293,34,2000,0,2,0,0,1,1,0
+"Pérez Mackenna, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Vivienda y Urbanismo,2011-04-19,2014-03-11,1057,50,2011,0,1,0,0,0,0,1
+"Matte Lecaros, Magdalena",Sebastián Piñera,2010-03-11,2014-03-11,Vivienda y Urbanismo,2010-03-11,2011-04-19,404,59,2010,1,0,0,0,0,0,0
+"Aninat Ureta, Eduardo",Eduardo Frei,1994-03-11,2000-03-11,Hacienda,1994-03-11,1999-12-03,2093,46,1994,0,2,0,0,1,1,0
+"Foxley Rioseco, Alejandro",Patricio Aylwin,1990-03-11,1994-03-11,Hacienda,1990-03-11,1994-03-11,1461,50,1990,0,2,0,0,1,1,0
+"Correa Díaz, Germán",Eduardo Frei,1994-03-11,2000-03-11,Interior,1994-03-11,1994-09-20,193,54,1994,0,0,0,0,0,0,0
+"Insulza Salinas, José Miguel",Ricardo Lagos,2000-03-11,2006-03-11,Interior,2000-03-11,2005-05-24,1900,56,2000,0,0,0,0,0,0,0
+"Krauss Rusque, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,Interior,1990-03-11,1994-03-11,1461,58,1990,0,2,0,1,0,0,1
+"Troncoso Castillo, Raúl",Eduardo Frei,1994-03-11,2000-03-11,Interior,1998-08-01,2000-03-11,588,63,1998,0,1,1,0,0,0,0
+"Velasco Baraona, Belisario",Michelle Bachelet,2006-03-11,2010-03-11,Interior,2006-07-14,2008-01-04,539,70,2006,0,1,0,0,0,0,1
+"Vidal Salinas, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,Interior,2005-05-24,2006-03-11,291,51,2005,0,1,0,0,1,0,0
+"Arrate Mac Niven, Jorge",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1998-08-01,1999-06-22,325,57,1998,0,3,1,0,1,1,0
+"Brunner Ried, José Joaquín",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1994-09-20,1998-08-01,1411,49,1994,0,2,0,0,1,1,0
+"Correa Rios, Enrique",Patricio Aylwin,1990-03-11,1994-03-11,SEGEGOB,1990-03-11,1994-03-11,1461,44,1990,0,0,0,0,0,0,0
+"Huepe García, Claudio",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2000-03-11,2002-01-07,667,60,2000,0,3,0,1,1,1,0
+"Mladinic Alonso, Carlos",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1999-06-22,2000-03-11,263,44,1999,0,0,0,0,0,0,0
+"Muñoz Valenzuela, Heraldo",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2002-01-07,2003-03-03,420,53,2002,0,0,0,0,0,0,0
+"Rebolledo González, Víctor Manuel",Eduardo Frei,1994-03-11,2000-03-11,SEGEGOB,1994-03-11,1994-09-20,193,44,1994,0,1,0,1,0,0,0
+"Vidal Salinas, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,SEGEGOB,2003-03-03,2005-05-24,813,49,2003,0,1,0,0,1,0,0
+"Vidal Salinas, Francisco",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2007-12-06,2009-03-12,462,54,2007,0,2,1,0,1,0,0
+"Armanet Armanet, Pilar",Michelle Bachelet,2006-03-11,2010-03-11,SEGEGOB,2009-12-18,2010-03-11,83,59,2009,1,1,1,0,0,0,0
+"Pérez Jara, Cecilia",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2012-11-05,2014-03-11,491,38,2012,1,1,1,0,0,0,0
+"Von Baer Jahn, Ena",Sebastián Piñera,2010-03-11,2014-03-11,SEGEGOB,2010-03-11,2011-07-18,494,35,2010,1,0,0,0,0,0,0
+"Arriagada Herrera, Genaro",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1994-03-11,1996-09-28,932,51,1994,0,2,0,0,1,1,0
+"Biehl del Rio, John",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1998-08-01,1999-06-22,325,58,1998,0,0,0,0,0,0,0
+"Boeninger Kausel, Edgardo",Patricio Aylwin,1990-03-11,1994-03-11,SEGPRES,1990-03-11,1994-03-11,1461,64,1990,0,3,1,0,1,1,0
+"Dockendorff Vallejos, Eduardo",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2004-06-03,2006-03-11,646,55,2004,0,2,0,0,1,1,0
+"Fernández Baeza, Mario",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2002-01-07,2003-03-03,420,54,2002,0,1,0,0,1,0,0
+"Huenchumilla Jaramillo, Francisco",Ricardo Lagos,2000-03-11,2006-03-11,SEGPRES,2003-03-03,2004-06-03,458,58,2003,0,2,0,1,1,0,0
+"Insulza Salinas, José Miguel",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1999-06-22,2000-03-11,263,56,1999,0,0,0,0,0,0,0
+"Villarzú Rohde, Juan",Eduardo Frei,1994-03-11,2000-03-11,SEGPRES,1996-09-28,1998-08-01,672,52,1996,0,2,1,0,0,0,1
+"Campos Quiroga, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Agricultura,2000-03-11,2006-03-11,2191,47,2000,0,1,0,1,0,0,0
+"Figueroa Yávar, Juan Agustín",Patricio Aylwin,1990-03-11,1994-03-11,Agricultura,1990-03-11,1994-03-11,1461,56,1990,0,1,0,0,0,0,1
+"Galilea Vidaurre, José Antonio",Sebastián Piñera,2010-03-11,2014-03-11,Agricultura,2010-03-11,2011-12-29,658,48,2010,0,3,1,1,0,0,1
+"Mayol Bouchon, Luis",Sebastián Piñera,2010-03-11,2014-03-11,Agricultura,2011-12-29,2014-03-11,803,59,2011,0,1,0,0,0,0,1
+"Mladinic Alonso, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1996-09-28,1999-06-22,997,41,1996,0,0,0,0,0,0,0
+"Rojas Marín, Álvaro",Michelle Bachelet,2006-03-11,2010-03-11,Agricultura,2006-03-11,2008-01-08,668,52,2006,0,2,0,0,1,1,0
+"Sartori Arellano, Ángel",Eduardo Frei,1994-03-11,2000-03-11,Agricultura,1999-06-22,2000-03-11,263,51,1999,0,0,0,0,0,0,0
+"Hornkohl Venegas, Marigen",Michelle Bachelet,2006-03-11,2010-03-11,Agricultura,2008-01-08,2010-03-11,793,54,2008,1,1,1,0,0,0,0
+"Alvarado Constenla, Luis",Patricio Aylwin,1990-03-11,1994-03-11,Bienes Nacionales,1990-03-11,1994-03-11,1461,49,1990,0,0,0,0,0,0,0
+"Galilea Ocón, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1999-08-13,2000-03-11,211,51,1999,0,1,1,0,0,0,0
+"Heine Lorenzen, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1999-04-13,1999-08-13,122,50,1999,0,1,0,0,1,0,0
+"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2000-12-29,2004-10-01,1372,54,2000,0,3,1,0,1,1,0
+"Delpiano Puelma, Adriana",Eduardo Frei,1994-03-11,2000-03-11,Bienes Nacionales,1994-03-11,1999-04-13,1859,47,1994,1,0,0,0,0,0,0
+"Schmidt Crnosija, Romy",Michelle Bachelet,2006-03-11,2010-03-11,Bienes Nacionales,2006-03-11,2010-01-06,1397,40,2006,1,2,0,0,1,1,0
+"Tschorne Berestesky, Sonia",Ricardo Lagos,2000-03-11,2006-03-11,Bienes Nacionales,2004-09-29,2006-03-11,528,49,2004,1,1,1,0,0,0,0
+"Weinstein Levy, Jacqueline",Michelle Bachelet,2006-03-11,2010-03-11,Bienes Nacionales,2010-01-06,2010-03-11,64,61,2010,1,2,0,0,1,1,0
+"Jadresic Marinovic, Alejandro",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1994-03-11,1998-01-01,1392,37,1994,0,2,0,0,1,1,0
+"Landerretche Gacitúa, Óscar",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-11-24,2000-03-11,473,49,1998,0,1,1,0,0,0,0
+"Leiva Lavalle, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Comisión Nacional de Energía,1998-08-04,1998-11-24,112,59,1998,0,0,0,0,0,0,0
+"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,Comisión Nacional de Energía,2001-06-19,2006-03-11,1726,53,2001,0,2,1,0,0,0,1
+"Tokman Ramos, Marcelo",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Energía,2007-03-26,2010-03-11,1081,39,2007,0,2,0,0,1,1,0
+"Poniachik Pollak, Karen",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Energía,2006-03-11,2007-03-27,381,40,2006,1,1,0,0,1,0,0
+"Uriarte Rodríguez, Ana Lya",Michelle Bachelet,2006-03-11,2010-03-11,Comisión Nacional de Medio Ambiente,2007-03-26,2010-03-11,1081,44,2007,1,0,0,0,0,0,0
+"Ampuero Espinoza, Roberto",Sebastián Piñera,2010-03-11,2014-03-11,Consejo Nacional de la Cultura y las Artes,2013-06-09,2014-03-11,275,57,2013,0,0,0,0,0,0,0
+"Weinstein Cayuela, José",Ricardo Lagos,2000-03-11,2006-03-11,Consejo Nacional de la Cultura y las Artes,2003-08-06,2006-03-11,948,44,2003,0,2,0,0,1,1,0
+"Urrutia Fernández, Paulina",Michelle Bachelet,2006-03-11,2010-03-11,Consejo Nacional de la Cultura y las Artes,2006-03-11,2010-03-11,1461,37,2006,1,1,0,0,1,0,0
+"Abeliuk Manasevic, René",Patricio Aylwin,1990-03-11,1994-03-11,CORFO,1990-03-11,1994-03-11,1461,59,1990,0,0,0,0,0,0,0
+"Fernández Baeza, Mario",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2000-03-11,2002-01-07,667,52,2000,0,1,0,0,1,0,0
+"Goñi Carrasco, José",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2007-03-26,2009-03-12,717,59,2007,0,0,0,0,0,0,0
+"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2004-10-01,2006-03-11,526,57,2004,0,3,1,0,1,1,0
+"Ravinet de La Fuente, Jaime",Sebastián Piñera,2010-03-11,2014-03-11,Defensa Nacional,2010-03-11,2011-01-14,309,63,2010,0,3,1,0,0,1,1
+"Rojas Saavedra, Patricio",Patricio Aylwin,1990-03-11,1994-03-11,Defensa Nacional,1990-03-11,1994-03-11,1461,57,1990,0,2,0,0,1,1,0
+"Troncoso Castillo, Raúl",Eduardo Frei,1994-03-11,2000-03-11,Defensa Nacional,1998-01-16,1998-08-01,197,62,1998,0,1,1,0,0,0,0
+"Vidal Salinas, Francisco",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2009-03-12,2010-03-11,364,55,2009,0,2,1,0,1,0,0
+"Bachelet Jeria, Michelle",Ricardo Lagos,2000-03-11,2006-03-11,Defensa Nacional,2002-01-07,2004-09-29,996,50,2002,1,2,0,0,1,1,0
+"Blanlot Soza, Vivianne",Michelle Bachelet,2006-03-11,2010-03-11,Defensa Nacional,2006-03-11,2007-03-26,380,50,2006,1,3,1,0,1,1,0
+"Baranda Ferran, Bruno",Sebastián Piñera,2010-03-11,2014-03-11,Desarrollo Social,2013-06-09,2014-03-11,275,49,2013,0,2,0,0,1,0,1
+"Ferreiro Yazigi, Alejandro",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2006-07-14,2008-01-08,543,40,2006,0,3,1,0,1,1,0
+"Lavados Montes, Hugo",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2008-01-08,2010-03-11,793,58,2008,0,2,1,0,0,0,1
+"Leiva Lavalle, Jorge",Eduardo Frei,1994-03-11,2000-03-11,"Economía, Fomento y Reconstrucción",1998-08-01,2000-03-11,588,59,1998,0,0,0,0,0,0,0
+"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,"Economía, Fomento y Reconstrucción",2001-06-19,2006-03-11,1726,53,2001,0,2,1,0,0,0,1
+"Antonijevic Hahn, Ingrid",Michelle Bachelet,2006-03-11,2010-03-11,"Economía, Fomento y Reconstrucción",2006-03-11,2006-07-14,125,53,2006,1,2,1,0,0,0,1
+"De Vicente Mingo, Felix",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2013-05-07,2014-03-11,308,50,2013,0,0,0,0,0,0,0
+"Longueira Montes, Pablo",Sebastián Piñera,2010-03-11,2014-03-11,"Economía, Fomento y Turismo",2011-07-18,2013-04-29,651,52,2011,0,1,0,1,0,0,0
+"Arrate Mac Niven, Jorge",Patricio Aylwin,1990-03-11,1994-03-11,Educación,1992-09-28,1994-03-11,529,51,1992,0,3,1,0,1,1,0
+"Beyer Burgos, Harald",Sebastián Piñera,2010-03-11,2014-03-11,Educación,2011-12-29,2013-04-18,476,47,2011,0,2,0,0,1,1,0
+"Bitar Chacra, Sergio",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2003-03-03,2005-12-14,1017,62,2003,0,3,0,1,1,1,0
+"Molina Silva, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Educación,1994-09-26,1996-09-28,733,65,1994,0,3,1,0,1,1,0
+"Schiefelbein Fuenzalida, Ernesto",Eduardo Frei,1994-03-11,2000-03-11,Educación,1994-03-11,1994-09-20,193,59,1994,0,2,0,0,1,1,0
+"Zilic Hrepic, Martín",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2006-03-11,2006-07-14,125,58,2006,0,0,0,0,0,0,0
+"Hornkohl Venegas, Marigen",Ricardo Lagos,2000-03-11,2006-03-11,Educación,2005-12-14,2006-03-11,87,52,2005,1,1,1,0,0,0,0
+"Provoste Campillay, Yasna",Michelle Bachelet,2006-03-11,2010-03-11,Educación,2006-07-14,2008-04-03,629,36,2006,1,1,0,0,1,0,0
+"Echeverría Vial, Fernando",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-07-18,2011-07-21,3,57,2011,0,2,0,0,1,0,1
+"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-01-16,2011-07-18,183,49,2011,0,1,0,0,0,0,1
+"Rainieri Bernain, Ricardo",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2010-03-11,2011-01-14,309,48,2010,0,1,0,0,1,0,0
+"Álvarez Zenteno, Rodrigo",Sebastián Piñera,2010-03-11,2014-03-11,Energía,2011-07-22,2012-03-27,249,44,2011,0,1,0,1,0,0,0
+"Bates Hidalgo, Luis",Ricardo Lagos,2000-03-11,2006-03-11,Justicia,2003-03-03,2006-03-11,1104,68,2003,0,1,0,0,1,0,0
+"Cumplido Cereceda, Francisco",Patricio Aylwin,1990-03-11,1994-03-11,Justicia,1990-03-11,1994-03-11,1461,59,1990,0,1,0,0,1,0,0
+"Gómez Urrutia, José Antonio",Ricardo Lagos,2000-03-11,2006-03-11,Justicia,2000-03-11,2003-03-03,1087,46,2000,0,0,0,0,0,0,0
+"Gómez Urrutia, José Antonio",Eduardo Frei,1994-03-11,2000-03-11,Justicia,1999-12-15,2000-03-11,87,45,1999,0,0,0,0,0,0,0
+"Solís Palma, Isidro",Michelle Bachelet,2006-03-11,2010-03-11,Justicia,2006-03-11,2007-03-27,381,51,2006,0,2,1,0,1,0,0
+"Pérez Goldberg, Patricia",Sebastián Piñera,2010-03-11,2014-03-11,Justicia,2012-12-17,2014-03-11,449,38,2012,1,0,0,0,0,0,0
+"Benítez Pereira, María Ignacia",Sebastián Piñera,2010-03-11,2014-03-11,Medio Ambiente,2010-03-11,2014-03-11,1461,57,2010,1,0,0,0,0,0,0
+"Maira Aguirre, Luis",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1994-03-11,1996-09-28,932,53,1994,0,2,0,1,1,0,0
+"Molina Silva, Sergio",Patricio Aylwin,1990-03-11,1994-03-11,MIDEPLAN,1990-03-11,1994-03-11,1461,61,1990,0,3,1,0,1,1,0
+"Quintana Peña, Germán",Eduardo Frei,1994-03-11,2000-03-11,MIDEPLAN,1998-05-19,2000-03-11,662,38,1998,0,2,0,0,1,1,0
+"Hardy Raskovan , Clarisa",Michelle Bachelet,2006-03-11,2010-03-11,MIDEPLAN,2006-03-11,2008-01-08,668,60,2006,1,2,1,0,1,0,0
+"Provoste Campillay, Yasna",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2004-09-29,2006-03-11,528,34,2004,1,1,0,0,1,0,0
+"Pérez Díaz, Cecilia",Ricardo Lagos,2000-03-11,2006-03-11,MIDEPLAN,2002-01-07,2003-03-03,420,35,2002,1,0,0,0,0,0,0
+"Quintana Meléndez, Paula",Michelle Bachelet,2006-03-11,2010-03-11,MIDEPLAN,2008-01-08,2010-03-11,793,42,2008,1,0,0,0,0,0,0
+"De Solminihac Tampier, Hernán",Sebastián Piñera,2010-03-11,2014-03-11,Minería,2011-07-18,2014-03-11,967,53,2011,0,0,0,0,0,0,0
+"Dulanto Rencoret, Alfonso",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2002-01-07,2006-03-11,1524,58,2002,0,1,0,0,0,0,1
+"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Minería,2010-03-11,2011-07-18,494,48,2010,0,1,0,0,0,0,1
+"Hales Jamarne, Alejandro",Patricio Aylwin,1990-03-11,1994-03-11,Minería,1992-09-28,1994-03-11,529,69,1992,0,2,1,0,1,0,0
+"Hamilton Depassier, Juan",Patricio Aylwin,1990-03-11,1994-03-11,Minería,1990-03-11,1992-09-28,932,62,1990,0,3,0,1,1,1,0
+"Jiménez Moraga, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Minería,1997-08-13,2000-03-11,941,64,1997,0,3,1,0,1,0,1
+"Rodríguez Grossi, Jorge",Ricardo Lagos,2000-03-11,2006-03-11,Minería,2001-06-19,2002-01-07,202,53,2001,0,2,1,0,0,0,1
+"Teplizky Lijavetzky, Benjamín",Eduardo Frei,1994-03-11,2000-03-11,Minería,1994-03-11,1997-08-03,1241,61,1994,0,3,1,0,1,0,1
+"Poniachik Pollak, Karen",Michelle Bachelet,2006-03-11,2010-03-11,Minería,2006-03-11,2008-01-08,668,40,2006,1,1,0,0,1,0,0
+"Bitar Chacra, Sergio",Michelle Bachelet,2006-03-11,2010-03-11,Obras Públicas,2008-01-11,2010-03-11,790,67,2008,0,3,0,1,1,1,0
+"Bitrán Colodro, Eduardo",Michelle Bachelet,2006-03-11,2010-03-11,Obras Públicas,2006-03-11,2008-01-08,668,48,2006,0,3,0,0,1,1,1
+"Cruz Lorenzen, Carlos",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2000-03-11,2002-01-07,667,48,2000,0,2,1,0,0,0,1
+"De Solminihac Tampier, Hernán",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2010-03-11,2011-07-18,494,52,2010,0,0,0,0,0,0,0
+"Estévez Valencia, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2005-01-03,2006-03-11,432,58,2005,0,4,1,1,1,1,0
+"Etcheberry Celhay, Javier",Ricardo Lagos,2000-03-11,2006-03-11,Obras Públicas,2002-01-07,2005-01-03,1092,54,2002,0,2,1,0,0,0,1
+"Golborne Riveros, Laurence",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2011-07-18,2012-11-05,476,50,2011,0,1,0,0,0,0,1
+"Silva Rojas, María Loreto",Sebastián Piñera,2010-03-11,2014-03-11,Obras Públicas,2012-11-05,2014-03-11,491,48,2012,1,0,0,0,0,0,0
+"Fernández Amunátegui , Mariano",Michelle Bachelet,2006-03-11,2010-03-11,Relaciones Exteriores,2009-03-13,2010-03-11,363,63,2009,0,2,0,0,1,1,0
+"Foxley Rioseco, Alejandro",Michelle Bachelet,2006-03-11,2010-03-11,Relaciones Exteriores,2006-03-11,2009-03-12,1097,66,2006,0,3,0,1,1,1,0
+"Insulza Salinas, José Miguel",Eduardo Frei,1994-03-11,2000-03-11,Relaciones Exteriores,1994-09-20,1999-06-22,1736,51,1994,0,0,0,0,0,0,0
+"Artaza Barrios, Osvaldo",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2002-01-07,2003-03-03,420,46,2002,0,2,0,0,1,1,0
+"Erazo Latorre, Álvaro",Michelle Bachelet,2006-03-11,2010-03-11,Salud,2008-11-06,2010-03-11,490,50,2008,0,3,1,0,1,1,0
+"Figueroa Muñoz, Álex",Eduardo Frei,1994-03-11,2000-03-11,Salud,1996-08-07,2000-03-11,1312,34,1996,0,2,0,0,1,1,0
+"García Aspillaga, Pedro",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2003-03-03,2006-03-11,1104,42,2003,0,1,1,0,0,0,0
+"Massad Abud, Carlos",Eduardo Frei,1994-03-11,2000-03-11,Salud,1994-03-11,1996-08-07,880,61,1994,0,4,1,0,1,1,1
+"Mañalich Muxi, Jaime",Sebastián Piñera,2010-03-11,2014-03-11,Salud,2010-03-11,2014-03-11,1461,55,2010,0,2,0,0,1,0,1
+"Bachelet Jeria, Michelle",Ricardo Lagos,2000-03-11,2006-03-11,Salud,2000-03-11,2002-01-07,667,48,2000,1,2,0,0,1,1,0
+"Albornoz Pollman, Laura",Michelle Bachelet,2006-03-11,2010-03-11,SERNAM,2006-03-11,2009-10-19,1318,37,2006,1,1,1,0,0,0,0
+"Bilbao Mendezona, Josefina",Eduardo Frei,1994-03-11,2000-03-11,SERNAM,1994-03-11,2000-03-11,2192,61,1994,1,0,0,0,0,0,0
+"Delpiano Puelma, Adriana",Ricardo Lagos,2000-03-11,2006-03-11,SERNAM,2000-03-11,2003-03-03,1087,53,2000,1,0,0,0,0,0,0
+"Pérez Díaz, Cecilia",Ricardo Lagos,2000-03-11,2006-03-11,SERNAM,2003-03-03,2006-03-11,1104,36,2003,1,0,0,0,0,0,0
+"Seguel King, Loreto",Sebastián Piñera,2010-03-11,2014-03-11,SERNAM,2013-04-22,2014-03-11,323,36,2013,1,2,0,0,1,1,0
+"Arrate Mac Niven, Jorge",Eduardo Frei,1994-03-11,2000-03-11,Trabajo y Previsión Social,1994-03-11,1998-08-01,1604,52,1994,0,3,1,0,1,1,0
+"Cortázar Sanz, René",Patricio Aylwin,1990-03-11,1994-03-11,Trabajo y Previsión Social,1990-03-11,1994-03-11,1461,38,1990,0,3,0,0,1,1,1
+"Ljubetic Godoy, Yerko",Ricardo Lagos,2000-03-11,2006-03-11,Trabajo y Previsión Social,2005-04-22,2006-03-11,323,44,2005,0,1,0,0,1,0,0
+"Molina Valdivieso, Germán",Eduardo Frei,1994-03-11,2000-03-11,Trabajo y Previsión Social,1998-08-01,2000-03-11,588,55,1998,0,2,0,0,1,1,0
+"Solari Saavedra, Ricardo",Ricardo Lagos,2000-03-11,2006-03-11,Trabajo y Previsión Social,2000-03-11,2005-04-25,1871,45,2000,0,2,0,0,1,1,0
+"Merino Catalán, Camila",Sebastián Piñera,2010-03-11,2014-03-11,Trabajo y Previsión Social,2010-03-11,2011-01-14,309,42,2010,1,2,0,0,1,0,1
+"Serrano Madrid, Claudia",Michelle Bachelet,2006-03-11,2010-03-11,Trabajo y Previsión Social,2008-12-15,2010-03-11,451,51,2008,1,2,0,0,1,1,0
+"Correa Díaz, Germán",Patricio Aylwin,1990-03-11,1994-03-11,Transporte y Telecomunicaciones,1990-03-11,1992-09-28,932,50,1990,0,0,0,0,0,0,0
+"Cortázar Sanz, René",Michelle Bachelet,2006-03-11,2010-03-11,Transporte y Telecomunicaciones,2007-03-27,2010-03-11,1080,55,2007,0,3,1,0,1,0,1
+"Cruz Lorenzen, Carlos",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2000-03-11,2002-01-07,667,48,2000,0,2,1,0,0,0,1
+"Espejo Yaksic, Sergio",Michelle Bachelet,2006-03-11,2010-03-11,Transporte y Telecomunicaciones,2006-03-11,2007-03-27,381,38,2006,0,3,1,0,1,1,0
+"Estévez Valencia, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2005-01-03,2006-03-11,432,58,2005,0,4,1,1,1,1,0
+"Etcheberry Celhay, Javier",Ricardo Lagos,2000-03-11,2006-03-11,Transporte y Telecomunicaciones,2002-01-07,2005-01-03,1092,54,2002,0,2,1,0,0,0,1
+"Hohmann Barrientos, Claudio",Eduardo Frei,1994-03-11,2000-03-11,Transporte y Telecomunicaciones,1996-09-28,2000-03-11,1260,42,1996,0,0,0,0,0,0,0
+"Irureta Aburto, Narciso",Eduardo Frei,1994-03-11,2000-03-11,Transporte y Telecomunicaciones,1994-03-11,1996-09-28,932,69,1994,0,3,0,1,1,1,0
+"Molina Valdivieso, Germán",Patricio Aylwin,1990-03-11,1994-03-11,Transporte y Telecomunicaciones,1992-09-28,1994-03-11,529,49,1992,0,2,0,0,1,1,0
+"Etchegaray Aubry, Alberto",Patricio Aylwin,1990-03-11,1994-03-11,Vivienda y Urbanismo,1990-03-11,1994-03-11,1461,44,1990,0,1,0,0,1,0,0
+"Henríquez Díaz, Sergio",Eduardo Frei,1994-03-11,2000-03-11,Vivienda y Urbanismo,1997-07-24,2000-03-11,961,42,1997,0,2,1,0,0,0,1
+"Hermosilla Hermosilla, Edmundo",Eduardo Frei,1994-03-11,2000-03-11,Vivienda y Urbanismo,1994-03-11,1997-07-24,1231,37,1994,0,2,1,0,0,0,1
+"Ravinet de La Fuente, Jaime",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2000-12-29,2004-10-01,1372,54,2000,0,3,1,0,1,1,0
+"Poblete Bennett, Patricia",Michelle Bachelet,2006-03-11,2010-03-11,Vivienda y Urbanismo,2006-03-11,2010-03-11,1461,59,2006,1,0,0,0,0,0,0
+"Tschorne Berestesky, Sonia",Ricardo Lagos,2000-03-11,2006-03-11,Vivienda y Urbanismo,2004-09-29,2006-03-11,528,49,2004,1,1,1,0,0,0,0
