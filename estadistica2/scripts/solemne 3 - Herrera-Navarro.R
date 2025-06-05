@@ -35,7 +35,7 @@ library("see")
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
-setwd("/Dropbox/GitHub/uss/estadistica2/data/")
+#setwd("/Dropbox/GitHub/uss/estadistica2/data/")
 data <- read_xlsx("herrera_navarro.xlsx")
 
 ###################################################
