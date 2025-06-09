@@ -36,7 +36,7 @@ library("see")
 
 ## Establecer directorio de trabajo en tu computador
 #setwd("/ruta/a/tu/directorio/")
-#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/herrera_navarro.xlsx")
+#data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/....xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
@@ -50,7 +50,7 @@ github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2
 # Cargar base de datos apellido.csv desde Github
 ###################################################
 
-data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
+data2 <- getURL(paste0(github,"aravena_caro.csv")) 
 data <- read.csv(text = data2)
 
 ###################################################
@@ -71,7 +71,7 @@ vd  <- data$extremo              # posicion extrema (distancia del centro)
 vi1 <- data$votos                # número de votos. H1: a medida que aumenta el número de votos, aumneta la distancia del centro
 vi2 <- data$transicion           # número de años desde la transicion. H2: a medida que aumenta el número de años desde 1990, aumenta la distancia del centro
 vi3 <- data$sector_politico      # posicion ideologicia. H3: a medida que disminuye el puntaje en la escala ideologica, aumenta la distancia del centro
-vi4 <- data$independiente        # independiente. H4: los independientes son mas extremos que los no-independientes
+vi4 <- data$representacion        # independiente. H4: los independientes son mas extremos que los no-independientes
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
