@@ -71,7 +71,7 @@ vd  <- data$extremo              # posicion extrema (distancia del centro)
 vi1 <- data$votos                # número de votos. H1: a medida que aumenta el número de votos, aumneta la distancia del centro
 vi2 <- data$transicion           # número de años desde la transicion. H2: a medida que aumenta el número de años desde 1990, aumenta la distancia del centro
 vi3 <- data$sector_politico      # posicion ideologicia. H3: a medida que disminuye el puntaje en la escala ideologica, aumenta la distancia del centro
-vi4 <- data$representacion        # independiente. H4: los independientes son mas extremos que los no-independientes
+vi4 <- data$representacion        # representacion H4: los cargos de alcance nacional son mas extremos que los cargos de alcance regional
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -171,6 +171,12 @@ nobs(modelo2)
 modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
+
+## Modelo 4: Regresión simple (vd ~ vi4)
+modelo4 <- lm(vd ~ vi4)
+summary(modelo4)
+nobs(modelo4)
+
 
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
 modelo4 <- lm(vd ~ vi1 + vi3)
