@@ -61,7 +61,7 @@ data <- read.csv(text = data2)
 
 ## Variables para análisis (ajustar si es necesario)
 vd  <- data$coord1D_normal_all# polarización (Y)
-vi1 <- data$edad              # edad - H1: a medida que aumenta edad (X1), la polarización del legislador disminuye (Y)
+vi1 <- data$edad              # edad - H1: a medida que aumenta la edad del constituyente (X1), la polarización del constituyente aumenta (Y)
 vi2 <- data$p_votos           # porcentaje de voto - H2: a medida que disminuye el porcentaje de votos del candidato (X2), la polarización aumenta (Y)
 vi3 <- data$p_votos_ld        # porcentaje de votos lista - H3: a medida que aumenta porcentaje de votos de la lista (X3), la polarización del legislador disminuye (Y)
 vi4 <- data$sexo              # sexo - H4: las mujeres son más polarizadas que los hombres (Y)
@@ -128,9 +128,6 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
-
 ###################################################
 # CORRELACIÓN
 # Calcular correlación y graficar relación entre variables
@@ -165,8 +162,8 @@ modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
 
-## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+## Modelo 4: Regresión múltiple (vd ~ vi4)
+modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
