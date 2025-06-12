@@ -166,8 +166,13 @@ modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
 
+## Modelo 4: Regresión simple (vd ~ vi4)
+modelo4 <- lm(vd ~ vi4)
+summary(modelo4)
+nobs(modelo4)
+
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+modelo4 <- lm(vd ~ vi1 + vi3 + vi2 + vi4)
 summary(modelo4)
 nobs(modelo4)
 

@@ -68,7 +68,7 @@ data <- read.csv(text = data2)
 
 ## Variables para análisis (ajustar si es necesario)
 vd  <- data$homicidios         # homicidos?
-vi1 <- data$discinco           # distriucion del ingreso. H1: a medida que aumenta la desigualdad, menor es la tasa de homicidos
+vi1 <- data$discinco           # distribucion del ingreso (gini?). H1: a medida que aumenta la desigualdad, menor es la tasa de homicidos
 vi2 <- data$subexp             # gasto subnacional. H2: a medida que aumenta el gasto subnaciona, disminuye la tasa de homicidios
 vi3 <- data$rep_dr2            # representacion de minorias. H3: a medida que aumenta la representacion de minorias, mayor es la tasa de homicidios
 vi4 <- data$corrup             # nivel de corrupcion. H4: a medida que aumenta la corrupción, aumenta la tasa de homicidios
@@ -161,8 +161,8 @@ modelo2 <- lm(vd ~ vi2)
 summary(modelo2)
 nobs(modelo2)
 
-## Modelo 3: Regresión simple (vd ~ vi3)
-modelo3 <- lm(vd ~ vi3)
+## Modelo 3: Regresión simple (vd ~ vi4)
+modelo3 <- lm(vd ~ vi4)
 summary(modelo3)
 nobs(modelo3)
 
