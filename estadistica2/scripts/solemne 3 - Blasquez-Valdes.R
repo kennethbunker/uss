@@ -1,9 +1,9 @@
 ###################################################
 # R SCRIPT: SOLEMNE 3
 # por       : Kenneth Bunker
-# contacto  : kenneth.bunker@uss.cl
+# alumnos   : May Blasquez - Benjamín Valdes
 # ramo      : Estadística II
-# trabajo   : Nombre de Trabajo
+# trabajo   : ¿Qué explica el extremismo en la convención constitucional de Chile en 2021-2022?
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################

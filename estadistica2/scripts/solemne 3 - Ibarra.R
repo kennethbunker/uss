@@ -1,9 +1,9 @@
 ###################################################
 # R SCRIPT: SOLEMNE 3
 # por       : Kenneth Bunker
-# contacto  : kenneth.bunker@uss.cl
+# alumnos   : Constanza Ibarra
 # ramo      : Estadística II
-# trabajo   : Nombre de Trabajo
+# trabajo   : 
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################

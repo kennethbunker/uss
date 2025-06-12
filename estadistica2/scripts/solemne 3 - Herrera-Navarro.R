@@ -1,9 +1,9 @@
 ###################################################
 # R SCRIPT: SOLEMNE 3
 # por       : Kenneth Bunker
-# contacto  : kenneth.bunker@uss.cl
+# alumnos   : Millaray Herrera - Barbara Navarro
 # ramo      : Estadística II
-# trabajo   : Nombre de Trabajo
+# trabajo   : ¿Qué factores determinan la rotación ministerial en Chile desde 1990?
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################
@@ -36,22 +36,22 @@ library("see")
 
 ## Establecer directorio de trabajo en tu computador
 #setwd("/Dropbox/GitHub/uss/estadistica2/data/")
-data <- read_xlsx("herrera_navarro.xlsx")
+#data <- read_xlsx("herrera_navarro.xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
 ###################################################
 
 # Importar de Github
-#github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
+github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2/data/"
 
 ###################################################
 # ABRIR DATOS 2025-1
 # Cargar base de datos apellido.csv desde Github
 ###################################################
 
-#data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
-#data <- read.csv(text = data2)
+data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
+data <- read.csv(text = data2)
 
 ###################################################
 # LIMPIAR BASE
@@ -67,11 +67,11 @@ data <- read_xlsx("herrera_navarro.xlsx")
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$días        # total de días en el poder
-vi1 <- data$edad        # años. H1: a medida que aumenta el número de años del ministro, aumenta el número de días en el poder
-vi2 <- as.numeric(data$debut)       # año de nombramiento del ministro. H2: a medida que aumenta el año de nombramiento, disminuye el númerod e días en el poder
-vi3 <- data$experiencia # experiencia política. H3: a medida que aumenta la experiencia política, aumenta el número de días en el poder
-vi4 <- data$sexo        # sexo H4: los hombres durán más que las mujeres en el poder
+vd  <- data$días              # total de días en el poder
+vi1 <- data$edad              # años. H1: a medida que aumenta el número de años del ministro, aumenta el número de días en el poder
+vi2 <- as.numeric(data$debut) # año de nombramiento del ministro. H2: a medida que aumenta el año de nombramiento, disminuye el númerod e días en el poder
+vi3 <- data$experiencia       # experiencia política. H3: a medida que aumenta la experiencia política, aumenta el número de días en el poder
+vi4 <- data$sexo              # sexo H4: los hombres durán más que las mujeres en el poder
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)

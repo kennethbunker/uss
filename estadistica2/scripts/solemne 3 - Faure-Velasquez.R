@@ -35,7 +35,7 @@ library("see")
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
-#setwd("/estadistica2_cony")
+#setwd("...")
 #data <- read_xlsx("Dropbox/GitHub/uss/estadistica2/data/velasquez_faure.xlsx")
 
 ###################################################
