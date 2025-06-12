@@ -35,8 +35,8 @@ library("see")
 ###################################################
 
 ## Establecer directorio de trabajo en tu computador
-#setwd("/Dropbox/GitHub/uss/estadistica2/data/")
-#data <- read_xlsx("herrera_navarro.xlsx")
+setwd("/Dropbox/GitHub/uss/estadistica2/data/")
+data <- read_xlsx("../data/herrera_navarro.xlsx")
 
 ###################################################
 # CARGA DE DATOS VIA GITHUB
@@ -52,13 +52,6 @@ github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2
 
 data2 <- getURL(paste0(github,"herrera_navarro.csv")) 
 data <- read.csv(text = data2)
-
-###################################################
-# LIMPIAR BASE
-# Remover filas que tienen valores faltantes/celdas vacías (NA)
-###################################################
-
-#polarizacion <- drop_na(polarizacion)
 
 ###################################################
 # DEFINICIÓN DE VARIABLES
@@ -113,10 +106,11 @@ max(vi4, na.rm = T)
 # Gráficos tipo boxplot para identificar valores extremos (solo sirve con valores continuos--no dummy)
 ###################################################
 
-boxplot(vd, main="Variable Dependiente")
+boxplot(vd, main="Número de Días en el Poder")
 boxplot(vi1, main="Variable Independiente 1")
 boxplot(vi2, main="Variable Independiente 2")
 boxplot(vi3, main="Variable Independiente 3")
+#boxplot(vi4, main="Variable Independiente 4") # con dummy no va boxplot
 
 ###################################################
 # EXPLORAR DATOS (DENSIDADES)
@@ -124,7 +118,7 @@ boxplot(vi3, main="Variable Independiente 3")
 ###################################################
 
 dens1 <- density(vd, na.rm = T)
-plot(dens1, main="Densidad: Variable Dependiente")
+plot(dens1, main="Densidad: Número de días en el poder")
 
 dens2 <- density(vi1, na.rm = T)
 plot(dens2, main="Densidad: Variable Independiente 1")
@@ -135,8 +129,8 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
+#dens5 <- density(vi4, na.rm = T)
+#plot(dens5, main="Densidad: Variable Independiente 3")
 
 ###################################################
 # CORRELACIÓN
@@ -147,7 +141,7 @@ plot(dens5, main="Densidad: Variable Independiente 3")
 cor(vd, vi3, use="pairwise.complete.obs")
 
 # Gráfico de dispersión entre variables
-plot(vi3, vd, 
+plot(vi1, vd, 
      main="Relación entre Variables",
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
@@ -177,11 +171,10 @@ modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
-
-## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
-summary(modelo4)
-nobs(modelo4)
+## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
+modelo5 <- lm(vd ~ vi1 + vi2)
+summary(modelo5)
+nobs(modelo5)
 
 ## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
 modelo5 <- lm(vd ~ vi1 + vi2)
