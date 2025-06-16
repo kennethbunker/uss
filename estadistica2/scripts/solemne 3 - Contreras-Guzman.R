@@ -68,7 +68,7 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$coord1D_normal_all         # variable dependiente
+vd  <- data$izquierda_derecha         # variable dependiente
 vi1 <- data$sexo                    # variable independiente 1
 vi2 <- data$edad                    # variable independiente 2 
 vi3 <- data$p_votos                 # variable independiente 3
