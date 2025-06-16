@@ -30,6 +30,7 @@ library("writexl")
 library("openxlsx")
 library("correlation")
 library("see")
+library(readr)
 
 ###################################################
 # CARGA DE DATOS VIA MANUAL
@@ -52,7 +53,9 @@ github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2
 ###################################################
 
 data2 <- getURL(paste0(github,"contreras_guzman.csv")) 
-data <- read.csv(text = data2)
+data <- read_csv(data2)
+
+names(data)[1] <- "izquierda_derecha"
 
 ###################################################
 # LIMPIAR BASE
