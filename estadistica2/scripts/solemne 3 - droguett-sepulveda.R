@@ -11,7 +11,6 @@
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
 rm(list=ls())
 
-
 ###################################################
 # BIBLIOTECA
 # Cargar e instalar paquetes necesarios
@@ -68,11 +67,11 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$precision_promedio # precisión promedio (absoluto?)
-vi1 <- data$delta              # numero de dias entre encuesta y eleccion. H1: a medida que aumenta delta, menor es la precision promedio
-vi2 <- data$encuestados        # numero de encuestados. H2: a medida que aumenta el numero de encuestados, aumenta la precision
-vi3 <- data$nsnr              # porcentaje de nsnr. H3: a medida que aumenta la la tasa de nsnr, disminuye la precisión
-vi4 <- data$prob             # encuesta votante probable. H4: encuestas con votante probable son más precisas que encuestas sin votante probable
+vd  <- data$precision_promedio # error promedio (absoluto?)
+vi1 <- data$delta              # número de dias entre encuesta y elección. H1: a medida que aumenta delta, aumenta el error
+vi2 <- data$encuestados        # número de encuestados. H2: a medida que aumenta el número de encuestados, disminuye el error
+vi3 <- data$nsnr               # porcentaje de nsnr. H3: a medida que aumenta la  tasa de nsnr, aumenta el error
+vi4 <- data$prob               # encuesta votante probable. H4: encuestas con votante probable son más precisas que encuestas sin votante probable
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -102,6 +101,12 @@ mean(vi3, na.rm = T)
 sd(vi3, na.rm = T)
 min(vi3, na.rm = T)
 max(vi3, na.rm = T)
+
+## Estadísticas variable independiente 4
+mean(vi4, na.rm = T)
+sd(vi4, na.rm = T)
+min(vi4, na.rm = T)
+max(vi4, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
@@ -139,7 +144,7 @@ plot(dens5, main="Densidad: Variable Independiente 3")
 ###################################################
 
 # Correlación entre variables
-cor(vd, vi1, use="pairwise.complete.obs")
+cor(vd, vi3, use="pairwise.complete.obs")
 
 # Gráfico de dispersión entre variables
 plot(vi1, vd, 
@@ -167,8 +172,8 @@ modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
 
-## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+## Modelo 4: Regresión múltiple (vd ~ vi1 + vi2)
+modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
