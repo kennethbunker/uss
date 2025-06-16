@@ -3,9 +3,10 @@
 # por       : Kenneth Bunker
 # contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
-# trabajo   : Nombre de Trabajo
+# trabajo   : Martin Ayala
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
-#
+# nota      : datos fabricados para demostración de ejercicio estadístico
+#           : no usar en otro contexto
 ###################################################
 
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
@@ -57,13 +58,6 @@ data <- read.csv(text = data2)
 names(data)[1] <- "Country"
 
 ###################################################
-# LIMPIAR BASE
-# Remover filas que tienen valores faltantes/celdas vacías (NA)
-###################################################
-
-#polarizacion <- drop_na(polarizacion)
-
-###################################################
 # DEFINICIÓN DE VARIABLES
 # Define aquí tus variables usando formato "base$variable"
 # Si las defines correctamente, no es necesario modificar nada después de este item
@@ -71,10 +65,10 @@ names(data)[1] <- "Country"
 
 ## Variables para análisis (ajustar si es necesario)
 vd  <- data$GDP_Growth_Percent        # variable dependiente
-vi1 <- data$Gini_Index                    # variable independiente 1
-vi2 <- data$Access_to_Water_Percent              # variable independiente 2 
-vi3 <- data$Tax_Revenue_Percent_GDP            # variable independiente 3
-vi4 <- data$Women_in_Workforce_Percent            # variable independiente 4
+vi1 <- data$Gini_Index                # variable independiente 1
+vi2 <- data$Access_to_Water_Percent   # variable independiente 2 
+vi3 <- data$Employment_Percent        # variable independiente 3
+vi4 <- data$Left_President            # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -150,7 +144,7 @@ plot(vi1, vd,
      xlab="Variable Independiente")
 
 ###################################################
-# REGRESIÓN
+# REGRESIÓN: TABLA 2
 # Modelos de regresión lineal simple y múltiple
 ###################################################
 
@@ -170,19 +164,34 @@ summary(modelo3)
 nobs(modelo3)
 
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
-## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
-modelo5 <- lm(vd ~ vi1 + vi2)
+###################################################
+# REGRESIÓN: TABLA 3
+# Modelos de regresión lineal simple y múltiple
+###################################################
+
+## Modelo 5: Regresión simple
+modelo5 <- lm(vd ~ vi1 + v2)
 summary(modelo5)
 nobs(modelo5)
 
-## Modelo 6: Regresión múltiple (vd ~ vi1 + vi2 + vi3)
-modelo6 <- lm(vd ~ vi1 + vi2 + vi3)
+## Modelo 6: Regresión múltiple
+modelo6 <- lm(vd ~ vi1 + vi3)
 summary(modelo6)
 nobs(modelo6)
+
+## Modelo 7: Regresión múltiple
+modelo7 <- lm(vd ~ vi1 + vi2 + vi3)
+summary(modelo7)
+nobs(modelo7)
+
+## Modelo 8: Regresión múltiple (
+modelo8 <- lm(vd ~ vi1 + vi2 + vi3 + vi4)
+summary(modelo8)
+nobs(modelo8)
 
 ###################################################
 # REGRESIÓN + LINEA DE TENDENCIA
