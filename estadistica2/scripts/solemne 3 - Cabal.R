@@ -12,7 +12,6 @@
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
 rm(list=ls())
 
-
 ###################################################
 # BIBLIOTECA
 # Cargar e instalar paquetes necesarios
