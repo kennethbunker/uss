@@ -63,7 +63,7 @@ data <- read.csv(text = data2)
 vd  <- data$coord1D_normal_all# polarización (Y)
 vi1 <- data$edad              # edad - H1: a medida que aumenta la edad del constituyente (X1), la polarización del constituyente aumenta (Y)
 vi2 <- data$p_votos           # porcentaje de voto - H2: a medida que disminuye el porcentaje de votos del candidato (X2), la polarización aumenta (Y)
-vi3 <- data$p_votos_ld        # porcentaje de votos lista - H3: a medida que aumenta porcentaje de votos de la lista (X3), la polarización del legislador disminuye (Y)
+vi3 <- data$experiencia       # años de experiencia - H3: a medida que aumenta la experiencia política del constituyente (X3), la polarización del legislador disminuye (Y)
 vi4 <- data$sexo              # sexo - H4: las mujeres son más polarizadas que los hombres (Y)
 
 ###################################################
