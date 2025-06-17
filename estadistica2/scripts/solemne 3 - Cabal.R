@@ -222,10 +222,17 @@ plot(vd ~ vi3,
      xlab="Variable Independiente 3")
 abline(modelo3, col="red")
 
+plot(vd ~ vi4, 
+     main="Variable Dependiente vs Independiente 4",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente 4")
+abline(modelo4, col="red")
+
 # ###################################################
 # OTROS EJEMPLOS: 1
 # Gráficos de valores añadidos (partial regression plots)
 ###################################################
+
 # car::avPlots(modelo1)
 
 # ###################################################
