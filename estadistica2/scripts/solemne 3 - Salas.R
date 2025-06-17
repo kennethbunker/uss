@@ -128,9 +128,6 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
-
 ###################################################
 # CORRELACIÓN
 # Calcular correlación y graficar relación entre variables
@@ -145,8 +142,20 @@ plot(vi1, vd,
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
 
+# Gráfico de dispersión entre variables
+plot(vi2, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
+# Gráfico de dispersión entre variables
+plot(vi3, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
 ###################################################
-# REGRESIÓN
+# REGRESIÓN: TABLA 2
 # Modelos de regresión lineal simple y múltiple
 ###################################################
 
@@ -166,19 +175,34 @@ summary(modelo3)
 nobs(modelo3)
 
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
-## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
+###################################################
+# REGRESIÓN: TABLA 3
+# Modelos de regresión lineal simple y múltiple
+###################################################
+
+## Modelo 5: Regresión simple
 modelo5 <- lm(vd ~ vi1 + vi2)
 summary(modelo5)
 nobs(modelo5)
 
-## Modelo 6: Regresión múltiple (vd ~ vi1 + vi2 + vi3)
-modelo6 <- lm(vd ~ vi1 + vi2 + vi3)
+## Modelo 6: Regresión múltiple
+modelo6 <- lm(vd ~ vi1 + vi3)
 summary(modelo6)
 nobs(modelo6)
+
+## Modelo 7: Regresión múltiple
+modelo7 <- lm(vd ~ vi1 + vi2 + vi3)
+summary(modelo7)
+nobs(modelo7)
+
+## Modelo 8: Regresión múltiple (
+modelo8 <- lm(vd ~ vi1 + vi2 + vi3 + vi4)
+summary(modelo8)
+nobs(modelo8)
 
 ###################################################
 # REGRESIÓN + LINEA DE TENDENCIA
@@ -207,6 +231,7 @@ abline(modelo3, col="red")
 # OTROS EJEMPLOS: 1
 # Gráficos de valores añadidos (partial regression plots)
 ###################################################
+
 # car::avPlots(modelo1)
 
 # ###################################################

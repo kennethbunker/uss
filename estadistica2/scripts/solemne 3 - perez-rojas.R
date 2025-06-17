@@ -1,11 +1,12 @@
 ###################################################
 # R SCRIPT: SOLEMNE 3
 # por       : Kenneth Bunker
-# alumnos   : Sebastián Pérez - Andrés Rojas
+# contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
-# trabajo   : ¿Por qué varia la tasa de homicidos?
+# trabajo   : Pérez-Rojas
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
-#
+# nota      : datos fabricados para demostración de ejercicio estadístico
+#           : no usar en otro contexto
 ###################################################
 
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
