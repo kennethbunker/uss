@@ -54,7 +54,8 @@ github <- "https://raw.githubusercontent.com/kennethbunker/uss/main/estadistica2
 data2 <- getURL(paste0(github,"paz.csv")) 
 data <- read.csv(text = data2)
 
-names(data)[1] <- "Pais"
+names(data)[1] <- "pais"
+names(data)[2] <- "año"
 
 ###################################################
 # DEFINICIÓN DE VARIABLES
@@ -63,11 +64,11 @@ names(data)[1] <- "Pais"
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$indice_democracia         # variable dependiente
-vi1 <- data$crecimiento               # variable independiente 1
-vi2 <- data$indice_gini               # variable independiente 2 
-vi3 <- data$agua_potable              # variable independiente 3
-vi4 <- data$liberalizacion_economica  # variable independiente 4
+vd  <- data$desempleo                 # variable dependiente
+vi1 <- data$gini                      # variable independiente 1
+vi2 <- data$crecimiento               # variable independiente 2 
+vi3 <- data$liberalizacion_economica  # variable independiente 3
+vi4 <- data$gobierno_izquierda        # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
