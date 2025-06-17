@@ -64,11 +64,11 @@ names(data)[1] <- "Pais"
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$Indice_Democracia        # variable dependiente
-vi1 <- data$Crecimiento                # variable independiente 1
-vi2 <- data$Indice_Gini   # variable independiente 2 
-vi3 <- data$Acceso        # variable independiente 3
-vi4 <- data$Mujeres            # variable independiente 4
+vd  <- data$indice_democracia         # variable dependiente
+vi1 <- data$crecimiento               # variable independiente 1
+vi2 <- data$indice_gini               # variable independiente 2 
+vi3 <- data$agua_potable              # variable independiente 3
+vi4 <- data$liberalizacion_economica  # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -98,6 +98,12 @@ mean(vi3, na.rm = T)
 sd(vi3, na.rm = T)
 min(vi3, na.rm = T)
 max(vi3, na.rm = T)
+
+## Estadísticas variable independiente 4
+mean(vi4, na.rm = T)
+sd(vi4, na.rm = T)
+min(vi4, na.rm = T)
+max(vi4, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
@@ -174,7 +180,7 @@ nobs(modelo4)
 ###################################################
 
 ## Modelo 5: Regresión simple
-modelo5 <- lm(vd ~ vi1 + v2)
+modelo5 <- lm(vd ~ vi1 + vi2)
 summary(modelo5)
 nobs(modelo5)
 
