@@ -63,11 +63,11 @@ names(data)[1] <- "country"
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$indice_democracia         # variable dependiente
-vi1 <- data$crecimiento               # variable independiente 1
-vi2 <- data$indice_gini               # variable independiente 2 
-vi3 <- data$agua_potable              # variable independiente 3
-vi4 <- data$liberalizacion_economica  # variable independiente 4
+vd  <- data$turnout         # variable dependiente
+vi1 <- data$democracy_index               # variable independiente 1
+vi2 <- data$num_candidates               # variable independiente 2 
+vi3 <- data$democracy_spell              # variable independiente 3
+vi4 <- data$compulsory_voting  # variable independiente 4
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -131,9 +131,6 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
-
 ###################################################
 # CORRELACIÓN
 # Calcular correlación y graficar relación entre variables
@@ -144,6 +141,18 @@ cor(vd, vi1, use="pairwise.complete.obs")
 
 # Gráfico de dispersión entre variables
 plot(vi1, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
+# Gráfico de dispersión entre variables
+plot(vi2, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
+# Gráfico de dispersión entre variables
+plot(vi3, vd, 
      main="Relación entre Variables",
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
@@ -220,12 +229,6 @@ plot(vd ~ vi3,
      ylab="Variable Dependiente",
      xlab="Variable Independiente 3")
 abline(modelo3, col="red")
-
-plot(vd ~ vi4, 
-     main="Variable Dependiente vs Independiente 4",
-     ylab="Variable Dependiente",
-     xlab="Variable Independiente 4")
-abline(modelo4, col="red")
 
 # ###################################################
 # OTROS EJEMPLOS: 1

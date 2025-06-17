@@ -67,11 +67,11 @@ data <- read.csv(text = data2)
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$homicidios         # homicidos?
-vi1 <- data$discinco           # distribucion del ingreso (gini?). H1: a medida que aumenta la desigualdad, menor es la tasa de homicidos
-vi2 <- data$subexp             # gasto subnacional. H2: a medida que aumenta el gasto subnaciona, disminuye la tasa de homicidios
-vi3 <- data$rep_dr2            # representacion de minorias. H3: a medida que aumenta la representacion de minorias, mayor es la tasa de homicidios
-vi4 <- data$corrup             # nivel de corrupcion. H4: a medida que aumenta la corrupción, aumenta la tasa de homicidios
+vd  <- data$homicidios            # tasa homicidos 100,000 habitantes
+vi1 <- data$estabilidad_gobierno  # estabilidad del gobierno. H1: a medida que aumenta la estabilidad del gobierno, disminuye la tasa de homicidos
+vi2 <- data$gini                  # distribucion del ingreso (gini). H2: a medida que aumenta la desigualdad, menor es la tasa de homicidos
+vi3 <- data$corrup                # nivel de corrupcion. H3: a medida que aumenta la corrupción, aumenta la tasa de homicidios
+vi4 <- data$crecimiento_negativo  # crecimientoi economico. H4: la tasa de homicidios es mayor en paises que crecen de forma negativa
 
 ###################################################
 # EXPLORAR DATOS (TABLAS)
@@ -102,6 +102,12 @@ sd(vi3, na.rm = T)
 min(vi3, na.rm = T)
 max(vi3, na.rm = T)
 
+## Estadísticas variable independiente 4
+mean(vi4, na.rm = T)
+sd(vi4, na.rm = T)
+min(vi4, na.rm = T)
+max(vi4, na.rm = T)
+
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
 # Gráficos tipo boxplot para identificar valores extremos (solo sirve con valores continuos--no dummy)
@@ -129,9 +135,6 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
-
 ###################################################
 # CORRELACIÓN
 # Calcular correlación y graficar relación entre variables
@@ -146,8 +149,20 @@ plot(vi1, vd,
      ylab="Variable Dependiente",
      xlab="Variable Independiente")
 
+# Gráfico de dispersión entre variables
+plot(vi2, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
+# Gráfico de dispersión entre variables
+plot(vi3, vd, 
+     main="Relación entre Variables",
+     ylab="Variable Dependiente",
+     xlab="Variable Independiente")
+
 ###################################################
-# REGRESIÓN
+# REGRESIÓN: TABLA 2
 # Modelos de regresión lineal simple y múltiple
 ###################################################
 
@@ -161,25 +176,40 @@ modelo2 <- lm(vd ~ vi2)
 summary(modelo2)
 nobs(modelo2)
 
-## Modelo 3: Regresión simple (vd ~ vi4)
-modelo3 <- lm(vd ~ vi4)
+## Modelo 3: Regresión simple (vd ~ vi3)
+modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
 
 ## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
-modelo4 <- lm(vd ~ vi1 + vi3)
+modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
 
-## Modelo 5: Regresión múltiple (vd ~ vi1 + vi2)
+###################################################
+# REGRESIÓN: TABLA 3
+# Modelos de regresión lineal simple y múltiple
+###################################################
+
+## Modelo 5: Regresión simple
 modelo5 <- lm(vd ~ vi1 + vi2)
 summary(modelo5)
 nobs(modelo5)
 
-## Modelo 6: Regresión múltiple (vd ~ vi1 + vi2 + vi3)
-modelo6 <- lm(vd ~ vi1 + vi2 + vi3)
+## Modelo 6: Regresión múltiple
+modelo6 <- lm(vd ~ vi1 + vi3)
 summary(modelo6)
 nobs(modelo6)
+
+## Modelo 7: Regresión múltiple
+modelo7 <- lm(vd ~ vi1 + vi2 + vi3)
+summary(modelo7)
+nobs(modelo7)
+
+## Modelo 8: Regresión múltiple (
+modelo8 <- lm(vd ~ vi1 + vi2 + vi3 + vi4)
+summary(modelo8)
+nobs(modelo8)
 
 ###################################################
 # REGRESIÓN + LINEA DE TENDENCIA
@@ -208,6 +238,7 @@ abline(modelo3, col="red")
 # OTROS EJEMPLOS: 1
 # Gráficos de valores añadidos (partial regression plots)
 ###################################################
+
 # car::avPlots(modelo1)
 
 # ###################################################
