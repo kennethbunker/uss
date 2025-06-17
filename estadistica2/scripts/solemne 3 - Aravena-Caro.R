@@ -3,7 +3,7 @@
 # por       : Kenneth Bunker
 # contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
-# trabajo   : Nombre de Trabajo
+# trabajo   : Aravena + Caro
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################

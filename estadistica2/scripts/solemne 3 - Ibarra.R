@@ -3,7 +3,7 @@
 # por       : Kenneth Bunker
 # alumnos   : Constanza Ibarra
 # ramo      : Estadística II
-# trabajo   : 
+# trabajo   : Ibarra
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
 #
 ###################################################

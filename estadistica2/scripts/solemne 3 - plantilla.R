@@ -5,7 +5,7 @@
 # ramo      : Estadística II
 # trabajo   : Nombre de Trabajo
 # permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
-#
+#           : https://github.com/kennethbunker/uss/tree/main/estadistica2/datos
 ###################################################
 
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
