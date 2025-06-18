@@ -68,7 +68,7 @@ vd  <- data$GDP_Growth_Percent        # variable dependiente. Crecimiento econom
 vi1 <- data$Gini_Index                # variable independiente 1. Índice de Gini (desigualdad). H1: A medida que aumenta el Gini, aumenta el crecimiento.
 vi2 <- data$Access_to_Water_Percent   # variable independiente 2. Porcentaje acceso agua. H2. A medida que aumenta Acceso a Agua, aumenta el crecimiento.
 vi3 <- data$Employment_Percent        # variable independiente 3. Tasa de empleo. H3. A medida que aumenta la tasa de empleo, aumenta el crecimiento.
-vi4 <- data$Left_President            # variable independiente 4. Presidente de Izquierda. H4. Hay mayor crecimiento cuando presidente es de izquierda (Left_President=1), que cuando es de oto sector (Left_Izquierda=0).
+vi4 <- data$Left_President            # variable independiente 4. Presidente de Izquierda. H4. Hay mayor crecimiento economico cuando presidente es de izquierda (Left_President=1), que cuando es de oto sector (Left_Izquierda=0).
 
 ###################################################
 # EXPLORAR DATOS (TABLA 1)
@@ -194,7 +194,7 @@ modelo7 <- lm(vd ~ vi1 + vi2 + vi3)
 summary(modelo7)
 nobs(modelo7)
 
-## Modelo 8: Regresión múltiple (
+## Modelo 8: Regresión múltiple
 modelo8 <- lm(vd ~ vi1 + vi2 + vi3 + vi4)
 summary(modelo8)
 nobs(modelo8)
