@@ -4,14 +4,14 @@
 # contacto  : kenneth.bunker@uss.cl
 # ramo      : Estadística II
 # trabajo   : Martin Ayala
-# permalink : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
+# script    : https://github.com/kennethbunker/uss/tree/main/estadistica2/scripts
+# data      : https://github.com/kennethbunker/uss/tree/main/estadistica2/data
 # nota      : datos fabricados para demostración de ejercicio estadístico
 #           : no usar en otro contexto
 ###################################################
 
 ## Limpiar el caché (eliminar variables guardadas anteriormente)
 rm(list=ls())
-
 
 ###################################################
 # BIBLIOTECA
@@ -58,21 +58,21 @@ data <- read.csv(text = data2)
 names(data)[1] <- "Country"
 
 ###################################################
-# DEFINICIÓN DE VARIABLES
+# DEFINICIÓN DE VARIABLES + HIPOTESIS
 # Define aquí tus variables usando formato "base$variable"
 # Si las defines correctamente, no es necesario modificar nada después de este item
 ###################################################
 
 ## Variables para análisis (ajustar si es necesario)
-vd  <- data$GDP_Growth_Percent        # variable dependiente
-vi1 <- data$Gini_Index                # variable independiente 1
-vi2 <- data$Access_to_Water_Percent   # variable independiente 2 
-vi3 <- data$Employment_Percent        # variable independiente 3
-vi4 <- data$Left_President            # variable independiente 4
+vd  <- data$GDP_Growth_Percent        # variable dependiente. Crecimiento economico.
+vi1 <- data$Gini_Index                # variable independiente 1. Índice de Gini (desigualdad). H1: A medida que aumenta el Gini, aumenta el crecimiento.
+vi2 <- data$Access_to_Water_Percent   # variable independiente 2. Porcentaje acceso agua. H2. A medida que aumenta Acceso a Agua, aumenta el crecimiento.
+vi3 <- data$Employment_Percent        # variable independiente 3. Tasa de empleo. H3. A medida que aumenta la tasa de empleo, aumenta el crecimiento.
+vi4 <- data$Left_President            # variable independiente 4. Presidente de Izquierda. H4. Hay mayor crecimiento cuando presidente es de izquierda (Left_President=1), que cuando es de oto sector (Left_Izquierda=0).
 
 ###################################################
-# EXPLORAR DATOS (TABLAS)
-# Estadísticos descriptivos (media, desviación estándar, mínimo y máximo)
+# EXPLORAR DATOS (TABLA 1)
+# Estadísticos descriptivos (promedio, desviación estándar, mínimo y máximo)
 ###################################################
 
 ## Estadísticas variable dependiente
@@ -98,6 +98,12 @@ mean(vi3, na.rm = T)
 sd(vi3, na.rm = T)
 min(vi3, na.rm = T)
 max(vi3, na.rm = T)
+
+## Estadísticas variable independiente 4
+mean(vi4, na.rm = T)
+sd(vi4, na.rm = T)
+min(vi4, na.rm = T)
+max(vi4, na.rm = T)
 
 ###################################################
 # EXPLORAR DATOS (BOXPLOT)
@@ -126,8 +132,8 @@ plot(dens3, main="Densidad: Variable Independiente 2")
 dens4 <- density(vi3, na.rm = T)
 plot(dens4, main="Densidad: Variable Independiente 3")
 
-dens5 <- density(vi4, na.rm = T)
-plot(dens5, main="Densidad: Variable Independiente 3")
+# dens5 <- density(vi4, na.rm = T)
+# plot(dens5, main="Densidad: Variable Independiente 3")
 
 ###################################################
 # CORRELACIÓN
@@ -163,7 +169,7 @@ modelo3 <- lm(vd ~ vi3)
 summary(modelo3)
 nobs(modelo3)
 
-## Modelo 4: Regresión múltiple (vd ~ vi1 + vi3)
+## Modelo 4: Regresión múltiple (vd ~ vi4)
 modelo4 <- lm(vd ~ vi4)
 summary(modelo4)
 nobs(modelo4)
