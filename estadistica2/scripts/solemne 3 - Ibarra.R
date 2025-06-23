@@ -184,7 +184,7 @@ nobs(modelo4)
 # Modelos de regresión lineal simple y múltiple
 ###################################################
 
-## Modelo 5: Regresión simple
+## Modelo 5: Regresión 
 modelo5 <- lm(vd ~ vi1 + vi2)
 summary(modelo5)
 nobs(modelo5)
@@ -209,10 +209,11 @@ nobs(modelo8)
 # Gráficos con líneas de regresión ajustadas
 ###################################################
 
+# modelo 1
 plot(vd ~ vi1, 
-     main="Variable Dependiente vs Independiente 1",
-     ylab="Variable Dependiente",
-     xlab="Variable Independiente 1")
+     main="Figura X. Número Efectivo de Partidos y Tamaño de la Asamblea",
+     ylab="Número de Partidos Politicos (NEP)",
+     xlab="Número de Diputados")
 abline(modelo1, col="red")
 
 plot(vd ~ vi2, 
