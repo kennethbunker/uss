@@ -106,10 +106,10 @@ max(vi4, na.rm = T)
 # Gráficos tipo boxplot para identificar valores extremos (solo sirve con valores continuos--no dummy)
 ###################################################
 
-boxplot(vd, main="Variable Dependiente")
-boxplot(vi1, main="Variable Independiente 1")
-boxplot(vi2, main="Variable Independiente 2")
-boxplot(vi3, main="Variable Independiente 3")
+boxplot(vd, main="Figura 1. Número de Partidos Políticos")
+boxplot(vi1, main="Figura 2. Variable Independiente 1")
+boxplot(vi2, main="Figura 3. Variable Independiente 2")
+boxplot(vi3, main="Figura 4. Variable Independiente 3")
 
 ###################################################
 # EXPLORAR DATOS (DENSIDADES)
@@ -117,7 +117,7 @@ boxplot(vi3, main="Variable Independiente 3")
 ###################################################
 
 dens1 <- density(vd, na.rm = T)
-plot(dens1, main="Densidad: Variable Dependiente")
+plot(dens1, main="Figura 5. Densidad: Variable Dependiente")
 
 dens2 <- density(vi1, na.rm = T)
 plot(dens2, main="Densidad: Variable Independiente 1")
@@ -211,7 +211,7 @@ nobs(modelo8)
 
 # modelo 1
 plot(vd ~ vi1, 
-     main="Figura X. Número Efectivo de Partidos y Tamaño de la Asamblea",
+     main="Figura 9. Número Efectivo de Partidos y Tamaño de la Asamblea",
      ylab="Número de Partidos Politicos (NEP)",
      xlab="Número de Diputados")
 abline(modelo1, col="red")
