@@ -120,13 +120,13 @@ dens1 <- density(vd, na.rm = T)
 plot(dens1, main="Figura 5. Densidad: Variable Dependiente")
 
 dens2 <- density(vi1, na.rm = T)
-plot(dens2, main="Densidad: Variable Independiente 1")
+plot(dens2, main="Figura 6. Densidad: Variable Independiente 1")
 
 dens3 <- density(vi2, na.rm = T)
-plot(dens3, main="Densidad: Variable Independiente 2")
+plot(dens3, main="Figura 7. Densidad: Variable Independiente 2")
 
 dens4 <- density(vi3, na.rm = T)
-plot(dens4, main="Densidad: Variable Independiente 3")
+plot(dens4, main="Figura 8. Densidad: Variable Independiente 3")
 
 ###################################################
 # CORRELACIÓN
